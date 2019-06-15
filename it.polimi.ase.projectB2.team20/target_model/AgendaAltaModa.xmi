@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ase.projectB.team20.agenda="http://agenda.it">
+  <ase.projectB.team20.agenda:Agenda>
+    <events name="Milan fashion week fall-winter woman " year="2017" month="9" city="Milan">
+      <singleBrandEvents name="Cocktail party" year="2017" month="9" day="3" hour="17" minute="0"/>
+      <singleBrandEvents name="Cocktail party" year="2017" month="9" day="2" hour="18" minute="0"/>
+      <singleBrandEvents name="Runway show" year="2017" month="9" day="2" hour="18" minute="0"/>
+      <singleBrandEvents name="After Party" year="2017" month="9" day="3" hour="21" minute="0">
+        <brand name="Valentino"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="After Party" year="2017" month="9" day="1" hour="22" minute="0">
+        <brand name="Salvatore Ferragamo"/>
+      </singleBrandEvents>
+    </events>
+    <events name="Milan fashion week fall-winter mens" year="2017" month="11" city="Milan">
+      <singleBrandEvents name="Cocktail party" year="2017" month="11" day="1" hour="18" minute="0">
+        <brand name="Cavalli"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Cocktail party" month="11" day="2" hour="19" minute="0">
+        <brand name="Versace"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="After party" year="2017" month="11" day="3" hour="22" minute="0">
+        <brand name="Dsquared2"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="After party" year="2017" month="11" day="3" hour="21" minute="30">
+        <brand name="Ermenegildo Zegna"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="11" day="4" hour="14" minute="0">
+        <brand name="Prada"/>
+      </singleBrandEvents>
+      <starModel name="Noah Mills"/>
+    </events>
+    <events name="Milan fashion week spring-summer woman " year="2017" month="8" city="Milan">
+      <singleBrandEvents name="Runway show" year="2017" month="10" day="1" hour="11" minute="0">
+        <brand name="Hermes"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="8" day="2" hour="15" minute="0"/>
+      <singleBrandEvents name="Cocktail party" year="2017" month="8" day="3" hour="19" minute="0"/>
+    </events>
+    <events name="Milan fashion week spring-summer mens " year="2017" month="5" city="Milan">
+      <singleBrandEvents name="Runway show" year="2017" month="5" day="1" hour="17" minute="0"/>
+      <singleBrandEvents name="Cocktail party" year="2017" month="5" day="1" hour="19" minute="0">
+        <brand name="Gucci"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="5" day="2" hour="12" minute="0">
+        <brand name="Moschino"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="After party" year="2017" month="5" day="3" hour="20" minute="0"/>
+      <presenter name="Marvin Humes"/>
+    </events>
+    <events name="London fashion week spring-summer woman " year="2017" month="1" city="London">
+      <singleBrandEvents name="Cocktail party" year="2017" month="1" day="1" hour="18" minute="0"/>
+      <singleBrandEvents name="Runway show" year="2017" month="1" day="2" hour="11" minute="0">
+        <brand name="Kenzo"/>
+      </singleBrandEvents>
+    </events>
+    <events name="London fashion week spring-summer mens" year="2017" month="2" city="London">
+      <singleBrandEvents name="After party" year="2017" month="2" day="1" hour="20" minute="0">
+        <brand name="Ralph Lauren"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="2" day="2" hour="15" minute="0"/>
+      <singleBrandEvents name="Cocktail party" year="2017" month="2" day="3" hour="19" minute="0">
+        <brand name="Burberry"/>
+      </singleBrandEvents>
+    </events>
+    <events name="London fashion week fall-winter woman " year="2017" month="4" city="London">
+      <singleBrandEvents name="After party" year="2017" month="4" day="3" hour="20" minute="0">
+        <brand name="Fendi"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Cocktail party" year="2017" month="4" day="2" hour="17" minute="30"/>
+      <singleBrandEvents name="Runway show" year="2017" month="4" day="1" hour="13" minute="0">
+        <brand name="Tom Ford"/>
+      </singleBrandEvents>
+    </events>
+    <events name="London fashion week fall-winter mens" year="2017" month="6" city="London">
+      <presenter name="Ben Shephard"/>
+    </events>
+    <events name="Paris fashion week fall-winter woman " year="2017" month="7" city="Paris">
+      <singleBrandEvents name="Cocktail party" year="2017" month="7" day="1" hour="18" minute="0">
+        <brand name="Balmain"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="7" day="0" hour="0" minute="0"/>
+      <starModel name="Bella Hadid"/>
+    </events>
+    <events name="Paris fashion week fall-winter mens" year="2017" month="8" city="Paris">
+      <singleBrandEvents name="Cocktail party" year="2017" month="8" day="1" hour="19" minute="0">
+        <brand name="Dolce&amp;Gabbana"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="8" day="3" hour="10" minute="0">
+        <brand name="Armani"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="8" day="1" hour="16" minute="0">
+        <brand name="Lanvin"/>
+      </singleBrandEvents>
+      <starModel name="Ryan Burns"/>
+    </events>
+    <events name="Paris fashion week spring-summer woman " year="2017" month="9" city="Paris">
+      <singleBrandEvents name="After party" year="2017" month="9" day="1" hour="23" minute="0">
+        <brand name="Saint Laurent"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="9" day="2" hour="12" minute="0">
+        <brand name="Givenchy"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="9" day="3" hour="14" minute="0"/>
+      <presenter name="Gok Wan"/>
+    </events>
+    <events name="Paris fashion week spring-summer mens " year="2017" month="12" city="Paris">
+      <singleBrandEvents name="After party" year="2017" month="12" day="1" hour="22" minute="30">
+        <brand name="Louis Vuitton"/>
+      </singleBrandEvents>
+      <singleBrandEvents name="Runway show" year="2017" month="12" day="1" hour="19" minute="30">
+        <brand name="Dior"/>
+      </singleBrandEvents>
+      <presenter name="Darcey Bussell"/>
+    </events>
+    <events name="New York fashion week spring-summer woman " month="0"/>
+    <events name="New York fashion week spring-summer mens" month="0">
+      <singleBrandEvents name="Runway show" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="Cocktail party" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="After party" month="0" day="0" hour="0" minute="0"/>
+    </events>
+    <events name="New York fashion week fall-winter woman " month="0">
+      <singleBrandEvents name="After party" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="Runway show" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="Runway show" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="Cocktail party" month="0" day="0" hour="0" minute="0"/>
+    </events>
+    <events name="New York fashion week fall-winter mens" month="0">
+      <singleBrandEvents name="After party" month="0" day="0" hour="0" minute="0"/>
+      <singleBrandEvents name="Runway show" month="0" day="0" hour="0" minute="0"/>
+    </events>
+  </ase.projectB.team20.agenda:Agenda>
+  <ase.projectB.team20.agenda:Brand name="Balenciaga"/>
+  <ase.projectB.team20.agenda:Brand name="L.G:R"/>
+  <ase.projectB.team20.agenda:Brand name="N°21"/>
+  <ase.projectB.team20.agenda:Brand name="Fausto Puglisi"/>
+  <ase.projectB.team20.agenda:Brand name="Paul Andrew"/>
+  <ase.projectB.team20.agenda:Brand name="Sanchita"/>
+  <ase.projectB.team20.agenda:Brand name="Unravel"/>
+  <ase.projectB.team20.agenda:Brand name="Stella Jean"/>
+  <ase.projectB.team20.agenda:Brand name="Yeezy"/>
+  <ase.projectB.team20.agenda:StarModel name="Gigi Hadid"/>
+  <ase.projectB.team20.agenda:StarModel name="Kate Moss"/>
+  <ase.projectB.team20.agenda:StarModel name="Bianca Balti"/>
+  <ase.projectB.team20.agenda:StarModel name="Naomi Campbell"/>
+  <ase.projectB.team20.agenda:StarModel name="Kendall Jenner"/>
+  <ase.projectB.team20.agenda:StarModel name="Gisele Bundchen"/>
+  <ase.projectB.team20.agenda:StarModel name="Candice Swanepoel"/>
+  <ase.projectB.team20.agenda:StarModel name="Adriana Lima"/>
+  <ase.projectB.team20.agenda:StarModel name="Karlie Kloss"/>
+  <ase.projectB.team20.agenda:StarModel name="Cara Delevigne"/>
+  <ase.projectB.team20.agenda:StarModel name="Alessandra Ambrosio"/>
+  <ase.projectB.team20.agenda:StarModel name="Sara Sampaio"/>
+  <ase.projectB.team20.agenda:StarModel name="Fabio Mancini"/>
+  <ase.projectB.team20.agenda:StarModel name="Alessio Pozzi"/>
+  <ase.projectB.team20.agenda:StarModel name="Lucky Blue Smith"/>
+  <ase.projectB.team20.agenda:StarModel name="Sean O'Pry"/>
+  <ase.projectB.team20.agenda:StarModel name="Ton Heukels"/>
+  <ase.projectB.team20.agenda:StarModel name="Giovanni Bonamy"/>
+  <ase.projectB.team20.agenda:StarModel name="Alexandre Cunha"/>
+  <ase.projectB.team20.agenda:StarModel name="Stephen Jamaes"/>
+  <ase.projectB.team20.agenda:StarModel name="David Gandy"/>
+  <ase.projectB.team20.agenda:StarModel name="Simon Nessman"/>
+  <ase.projectB.team20.agenda:StarModel name="Arthur Kulkov"/>
+</xmi:XMI>

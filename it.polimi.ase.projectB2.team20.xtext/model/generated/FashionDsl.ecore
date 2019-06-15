@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="fashionDsl" nsURI="http://www.polimi.it/ase/projectB2/team20/xtext/FashionDsl"
+    nsPrefix="fashionDsl">
+  <eClassifiers xsi:type="ecore:EClass" name="FashionDomain">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//FashionElement" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="styles" upperBound="-1"
+        eType="#//FashionStyle" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Brand" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="styles" unique="false"
+        upperBound="-1" eType="#//FashionStyle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reports" upperBound="-1"
+        eType="#//NewsReport" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="campaigns" unique="false"
+        upperBound="-1" eType="#//AdvertisingCampaign"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="productlines" unique="false"
+        upperBound="-1" eType="#//ProductLine"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="designers" unique="false"
+        upperBound="-1" eType="#//Designer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NewsReport">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" unique="false"
+        upperBound="-1" eType="#//FashionElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Review" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="product" eType="#//Product"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reviewer" eType="#//Reviewer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="events" unique="false"
+        upperBound="-1" eType="#//Event"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Reviewer" eSuperTypes="#//Role">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reviews" unique="false"
+        upperBound="-1" eType="#//Review"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roles" unique="false" upperBound="-1"
+        eType="#//Role"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FashionStyle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="descriptors" upperBound="-1"
+        eType="#//SpatioTemporalDescriptor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" unique="false"
+        upperBound="-1" eType="#//FashionElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SpatioTemporalDescriptor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="number" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="period" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Article" eSuperTypes="#//NewsReport">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="magazine" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TVProgram" eSuperTypes="#//NewsReport">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FamousBrand" eSuperTypes="#//Brand">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="countries" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EmergingBrand" eSuperTypes="#//Brand">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="countries" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LocalBrand" eSuperTypes="#//Brand">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="country" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AdvertisingCampaign" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="brand" eType="#//Brand"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="products" upperBound="-1"
+        eType="#//AdvertisingProduct" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AdvertisingProduct" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProductLine" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="brand" eType="#//Brand"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="styles" upperBound="-1"
+        eType="#//ProductStyle" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="products" upperBound="-1"
+        eType="#//Product" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProductStyle" eSuperTypes="#//FashionElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Product" eSuperTypes="#//FashionElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reviews" unique="false"
+        upperBound="-1" eType="#//Review"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Photo" eSuperTypes="#//Review">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tags" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Description" eSuperTypes="#//Review">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comment" eSuperTypes="#//Review">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Blogger" eSuperTypes="#//Reviewer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Critic" eSuperTypes="#//Reviewer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Influencer" eSuperTypes="#//Reviewer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Designer" eSuperTypes="#//Role">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="brand" eType="#//Brand"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model" eSuperTypes="#//Role"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Photographer" eSuperTypes="#//Role"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Choreographer" eSuperTypes="#//Role"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Presenter" eSuperTypes="#//Role"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MacroEvent" eSuperTypes="#//Event">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="city" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="singleBrandEvents" upperBound="-1"
+        eType="#//SingleBrandEvent" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SingleBrandEvent" eSuperTypes="#//Event">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="day" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hour" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minute" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="brand" eType="#//Brand"/>
+  </eClassifiers>
+</ecore:EPackage>

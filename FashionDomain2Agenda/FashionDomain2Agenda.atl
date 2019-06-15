@@ -1,0 +1,108 @@
+-- @path FashionDomain=/it.polimi.ase.projectB2.team20/metamodel/fashion.ecore
+-- @path Agenda=/it.polimi.ase.projectB2.team20/target_metamodel/agenda.ecore
+
+module FashionDomain2Agenda;
+create OUT : Agenda from IN : FashionDomain;
+
+
+helper context FashionDomain!FashionDomain def: getMacroEvents(): OrderedSet(FashionDomain!MacroEvent) =
+	self.elements -> select(e| e.oclIsTypeOf(FashionDomain!MacroEvent));
+
+helper context FashionDomain!MacroEvent def: getPresenter(): FashionDomain!Presenter =
+	self.roles -> select(r | r.oclIsTypeOf(FashionDomain!Presenter));
+	
+helper context FashionDomain!Presenter def: presentsMacroEvent(): Boolean =
+	if self.events -> exists(e| e.oclIsTypeOf(FashionDomain!MacroEvent)) then
+		true
+	else
+		false
+	endif;
+	
+helper context FashionDomain!SingleBrandEvent def: belongsToMacroEvent(): Boolean =
+	if self.refImmediateComposite().oclIsTypeOf(FashionDomain!MacroEvent) then
+		true
+	else 
+		false
+	endif;
+
+helper context FashionDomain!MacroEvent def: getStarModel(): FashionDomain!Model =
+	self.roles -> select(r| r.oclIsTypeOf(FashionDomain!Model)) -> sortedBy(m| m.getBrands -> size()) -> last();
+	-- sortedBy(body) returns a collection ordered according to body from the lowest to the highest value. Elements of the source collection must have the < operator defined
+
+helper context FashionDomain!Model def: getBrands: OrderedSet(FashionDomain!Brand) = 
+	self.events -> iterate(event; brands: OrderedSet(FashionDomain!Brand) = OrderedSet{} |
+	if event.oclIsTypeOf(FashionDomain!MacroEvent) then
+		brands.union(event.singleBrandEvents -> select(sbe| sbe.roles -> includes(self)) -> collect(sbe| sbe.brand))
+	else
+		brands.append(event.brand)
+	endif);		
+
+
+
+
+
+rule FashionDomain2Agenda {
+	from
+		d: FashionDomain!FashionDomain		
+	to
+		a: Agenda!Agenda (
+			events <- d.getMacroEvents()		
+		)
+}
+
+rule MacroEvent2MacroEvent {	
+	from		
+		d: FashionDomain!MacroEvent	
+	to
+		a: Agenda!MacroEvent (	
+			name <- d.name,			
+			city <- d.city,
+			year <- d.year,
+			month <- d.month,
+			singleBrandEvents <- d.singleBrandEvents,
+			presenter <- d.getPresenter(),
+			starModel <- d.getStarModel()
+		)		
+}
+
+rule SingleBrandEvent2SingleBrandEvent {
+	from
+		d: FashionDomain!SingleBrandEvent (d.belongsToMacroEvent())
+	to
+		a: Agenda!SingleBrandEvent (
+			name <- d.name,
+			year <- d.year,
+			month <- d.month,
+			day <- d.day,
+			hour <- d.hour,
+			minute <- d.minute,
+			brand <- d.brand
+		)
+}
+
+rule Presenter2Presenter {
+	from
+		d: FashionDomain!Presenter (d.presentsMacroEvent())
+	to
+		a: Agenda!Presenter (
+			name <- d.name
+		)
+}
+
+rule Brand2Brand {
+	from
+		d: FashionDomain!Brand
+	to
+		a: Agenda!Brand (
+			name <- d.name
+		)
+}
+
+rule Model2Model {
+	from
+		d: FashionDomain!Model --(d.partecipatesToMacroEvent())
+	to
+		a: Agenda!StarModel (
+			name <- d.name
+		)
+}

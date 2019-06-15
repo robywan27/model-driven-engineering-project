@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="fashion">
+  <figures name="Default">
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="FashionElementStylesFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="NewsReportElementsFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="FashionStyleElementsFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="BrandCampaignsFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="BrandProductLinesFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="BrandDesignersFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="AdvertisingCampaignBrandFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="EventRolesFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="SingleBrandEventBrandFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="ProductLineBrandFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="ProductReviewsFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="ReviewProductFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="ReviewReviewerFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="RoleEventsFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="DesignerBrandFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="ReviewerReviewsFigureTargetDecoration"/>
+    <descriptors name="ArticleFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ArticleFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ArticleLabelFigure" text="Article"/>
+      </actualFigure>
+      <accessors accessor="getFigureArticleLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="TVProgramFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="TVProgramFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="TVProgramLabelFigure" text="TVProgram"/>
+      </actualFigure>
+      <accessors accessor="getFigureTVProgramLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="FashionStyleFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="FashionStyleFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="FashionStyleLabelFigure" text="FashionStyle">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="FashionStyleDescriptorsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureFashionStyleLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+      <accessors accessor="getFashionStyleDescriptorsCompartmentFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="SpatioTemporalDescriptorFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="SpatioTemporalDescriptorFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="SpatioTemporalDescriptorLabelFigure" text="SpatioTemporalDescriptor"/>
+      </actualFigure>
+      <accessors accessor="getFigureSpatioTemporalDescriptorLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="FamousBrandFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="FamousBrandFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="FamousBrandLabelFigure" text="FamousBrand">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="FamousBrandReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureFamousBrandLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+      <accessors accessor="getFamousBrandReportsCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="EmergingBrandFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="EmergingBrandFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="EmergingBrandLabelFigure" text="EmergingBrand">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="EmergingBrandReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureEmergingBrandLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getEmergingBrandReportsCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="LocalBrandFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="LocalBrandFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="LocalBrandLabelFigure" text="LocalBrand">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="LocalBrandReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureLocalBrandLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+      <accessors accessor="getLocalBrandReportsCompartmentFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="AdvertisingCampaignFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="AdvertisingCampaignFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AdvertisingCampaignLabelFigure" text="AdvertisingCampaign">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="AdvertisingCampaignReportsCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="AdvertisingCampaignProductsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureAdvertisingCampaignLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+      <accessors accessor="getAdvertisingCampaignReportsCompartmentFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.1"/>
+      <accessors accessor="getAdvertisingCampaignProductsCompartmentFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="AdvertisingProductFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="AdvertisingProductFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AdvertisingProductLabelFigure" text="AdvertisingProduct">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="AdvertisingProductReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureAdvertisingProductLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+      <accessors accessor="getAdvertisingProductReportsCompartmentFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="MacroEventFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MacroEventFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="MacroEventLabelFigure" text="MacroEvent">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="MacroEventReportsCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="MacroEventSingleBrandEventsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureMacroEventLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+      <accessors accessor="getMacroEventReportsCompartmentFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.1"/>
+      <accessors accessor="getMacroEventSingleBrandEventsCompartmentFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="SingleBrandEventFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="SingleBrandEventFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="SingleBrandEventLabelFigure" text="SingleBrandEvent">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="SingleBrandEventReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureSingleBrandEventLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.0"/>
+      <accessors accessor="getSingleBrandEventReportsCompartmentFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ProductLineFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ProductLineFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ProductLineLabelFigure" text="ProductLine">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ProductLineReportsCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ProductLineProductStylesCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ProductLineProductsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureProductLineLabelFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.0"/>
+      <accessors accessor="getProductLineReportsCompartmentFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.1"/>
+      <accessors accessor="getProductLineProductStylesCompartmentFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.2"/>
+      <accessors accessor="getProductLineProductsCompartmentFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.3"/>
+    </descriptors>
+    <descriptors name="ProductStyleFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ProductStyleFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ProductStyleLabelFigure" text="ProductStyle">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ProductStyleReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureProductStyleLabelFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@children.0"/>
+      <accessors accessor="getProductStyleReportsCompartmentFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ProductFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ProductFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ProductLabelFigure" text="Product">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ProductReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureProductLabelFigure" figure="//@figures.0/@descriptors.13/@actualFigure/@children.0"/>
+      <accessors accessor="getProductReportsCompartmentFigure" figure="//@figures.0/@descriptors.13/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="PhotoFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="PhotoFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="PhotoLabelFigure" text="Photo">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="PhotoReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigurePhotoLabelFigure" figure="//@figures.0/@descriptors.14/@actualFigure/@children.0"/>
+      <accessors accessor="getPhotoReportsCompartmentFigure" figure="//@figures.0/@descriptors.14/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="DescriptionFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="DescriptionFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="DescriptionLabelFigure" text="Description">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="DescriptionReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureDescriptionLabelFigure" figure="//@figures.0/@descriptors.15/@actualFigure/@children.0"/>
+      <accessors accessor="getDescriptionReportsCompartmentFigure" figure="//@figures.0/@descriptors.15/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="CommentFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="CommentFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="CommentLabelFigure" text="Comment">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="CommentReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureCommentLabelFigure" figure="//@figures.0/@descriptors.16/@actualFigure/@children.0"/>
+      <accessors accessor="getCommentReportsCompartmentFigure" figure="//@figures.0/@descriptors.16/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="DesignerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="DesignerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="DesignerLabelFigure" text="Designer">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="DesignerReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureDesignerLabelFigure" figure="//@figures.0/@descriptors.17/@actualFigure/@children.0"/>
+      <accessors accessor="getDesignerReportsCompartmentFigure" figure="//@figures.0/@descriptors.17/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ModelFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ModelFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ModelLabelFigure" text="Model">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ModelReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureModelLabelFigure" figure="//@figures.0/@descriptors.18/@actualFigure/@children.0"/>
+      <accessors accessor="getModelReportsCompartmentFigure" figure="//@figures.0/@descriptors.18/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="PresenterFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="PresenterFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="PresenterLabelFigure" text="Presenter">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="PresenterReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigurePresenterLabelFigure" figure="//@figures.0/@descriptors.19/@actualFigure/@children.0"/>
+      <accessors accessor="getPresenterReportsCompartmentFigure" figure="//@figures.0/@descriptors.19/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ChoreographerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ChoreographerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ChoreographerLabelFigure" text="Choreographer">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ChoreographerReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureChoreographerLabelFigure" figure="//@figures.0/@descriptors.20/@actualFigure/@children.0"/>
+      <accessors accessor="getChoreographerReportsCompartmentFigure" figure="//@figures.0/@descriptors.20/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="PhotographerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="PhotographerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="PhotographerLabelFigure" text="Photographer">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="PhotographerReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigurePhotographerLabelFigure" figure="//@figures.0/@descriptors.21/@actualFigure/@children.0"/>
+      <accessors accessor="getPhotographerReportsCompartmentFigure" figure="//@figures.0/@descriptors.21/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="BloggerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="BloggerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="BloggerLabelFigure" text="Blogger">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="BloggerReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureBloggerLabelFigure" figure="//@figures.0/@descriptors.22/@actualFigure/@children.0"/>
+      <accessors accessor="getBloggerReportsCompartmentFigure" figure="//@figures.0/@descriptors.22/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="CriticFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="CriticFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="CriticLabelFigure" text="Critic">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="CriticReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureCriticLabelFigure" figure="//@figures.0/@descriptors.23/@actualFigure/@children.0"/>
+      <accessors accessor="getCriticReportsCompartmentFigure" figure="//@figures.0/@descriptors.23/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="InfluencerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="InfluencerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="InfluencerLabelFigure" text="Influencer">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="InfluencerReportsCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureInfluencerLabelFigure" figure="//@figures.0/@descriptors.24/@actualFigure/@children.0"/>
+      <accessors accessor="getInfluencerReportsCompartmentFigure" figure="//@figures.0/@descriptors.24/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="FashionElementStylesFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="FashionElementStylesFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.0"/>
+    </descriptors>
+    <descriptors name="FashionElementStylesExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="FashionElementStylesExternalLabel"/>
+    </descriptors>
+    <descriptors name="NewsReportElementsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="NewsReportElementsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.1"/>
+    </descriptors>
+    <descriptors name="NewsReportElementsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="NewsReportElementsExternalLabel"/>
+    </descriptors>
+    <descriptors name="FashionStyleElementsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="FashionStyleElementsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.2"/>
+    </descriptors>
+    <descriptors name="FashionStyleElementsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="FashionStyleElementsExternalLabel"/>
+    </descriptors>
+    <descriptors name="BrandCampaignsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="BrandCampaignsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.3"/>
+    </descriptors>
+    <descriptors name="BrandCampaignsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="BrandCampaignsExternalLabel"/>
+    </descriptors>
+    <descriptors name="BrandProductLinesFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="BrandProductLinesFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.4"/>
+    </descriptors>
+    <descriptors name="BrandProductLinesExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="BrandProductLinesExternalLabel"/>
+    </descriptors>
+    <descriptors name="BrandDesignersFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="BrandDesignersFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.5"/>
+    </descriptors>
+    <descriptors name="BrandDesignersExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="BrandDesignersExternalLabel"/>
+    </descriptors>
+    <descriptors name="AdvertisingCampaignBrandFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AdvertisingCampaignBrandFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.6"/>
+    </descriptors>
+    <descriptors name="AdvertisingCampaignBrandExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AdvertisingCampaignBrandExternalLabel"/>
+    </descriptors>
+    <descriptors name="EventRolesFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="EventRolesFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.7"/>
+    </descriptors>
+    <descriptors name="EventRolesExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="EventRolesExternalLabel"/>
+    </descriptors>
+    <descriptors name="SingleBrandEventBrandFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="SingleBrandEventBrandFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.8"/>
+    </descriptors>
+    <descriptors name="SingleBrandEventBrandExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="SingleBrandEventBrandExternalLabel"/>
+    </descriptors>
+    <descriptors name="ProductLineBrandFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ProductLineBrandFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.9"/>
+    </descriptors>
+    <descriptors name="ProductLineBrandExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ProductLineBrandExternalLabel"/>
+    </descriptors>
+    <descriptors name="ProductReviewsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ProductReviewsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.10"/>
+    </descriptors>
+    <descriptors name="ProductReviewsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ProductReviewsExternalLabel"/>
+    </descriptors>
+    <descriptors name="ReviewProductFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ReviewProductFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.11"/>
+    </descriptors>
+    <descriptors name="ReviewProductExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ReviewProductExternalLabel"/>
+    </descriptors>
+    <descriptors name="ReviewReviewerFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ReviewReviewerFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.12"/>
+    </descriptors>
+    <descriptors name="ReviewReviewerExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ReviewReviewerExternalLabel"/>
+    </descriptors>
+    <descriptors name="RoleEventsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="RoleEventsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.13"/>
+    </descriptors>
+    <descriptors name="RoleEventsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="RoleEventsExternalLabel"/>
+    </descriptors>
+    <descriptors name="DesignerBrandFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="DesignerBrandFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.14"/>
+    </descriptors>
+    <descriptors name="DesignerBrandExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="DesignerBrandExternalLabel"/>
+    </descriptors>
+    <descriptors name="ReviewerReviewsFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ReviewerReviewsFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.15"/>
+    </descriptors>
+    <descriptors name="ReviewerReviewsExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ReviewerReviewsExternalLabel"/>
+    </descriptors>
+  </figures>
+  <nodes name="Article" figure="ArticleFigure"/>
+  <nodes name="TVProgram" figure="TVProgramFigure"/>
+  <nodes name="FashionStyle" figure="FashionStyleFigure"/>
+  <nodes name="SpatioTemporalDescriptor" figure="SpatioTemporalDescriptorFigure"/>
+  <nodes name="FamousBrand" figure="FamousBrandFigure"/>
+  <nodes name="EmergingBrand" figure="EmergingBrandFigure"/>
+  <nodes name="LocalBrand" figure="LocalBrandFigure"/>
+  <nodes name="AdvertisingCampaign" figure="AdvertisingCampaignFigure"/>
+  <nodes name="AdvertisingProduct" figure="AdvertisingProductFigure"/>
+  <nodes name="MacroEvent" figure="MacroEventFigure"/>
+  <nodes name="SingleBrandEvent" figure="SingleBrandEventFigure"/>
+  <nodes name="ProductLine" figure="ProductLineFigure"/>
+  <nodes name="ProductStyle" figure="ProductStyleFigure"/>
+  <nodes name="Product" figure="ProductFigure"/>
+  <nodes name="Photo" figure="PhotoFigure"/>
+  <nodes name="Description" figure="DescriptionFigure"/>
+  <nodes name="Comment" figure="CommentFigure"/>
+  <nodes name="Designer" figure="DesignerFigure"/>
+  <nodes name="Model" figure="ModelFigure"/>
+  <nodes name="Presenter" figure="PresenterFigure"/>
+  <nodes name="Choreographer" figure="ChoreographerFigure"/>
+  <nodes name="Photographer" figure="PhotographerFigure"/>
+  <nodes name="Blogger" figure="BloggerFigure"/>
+  <nodes name="Critic" figure="CriticFigure"/>
+  <nodes name="Influencer" figure="InfluencerFigure"/>
+  <connections name="FashionElementStyles" figure="FashionElementStylesFigure"/>
+  <connections name="NewsReportElements" figure="NewsReportElementsFigure"/>
+  <connections name="FashionStyleElements" figure="FashionStyleElementsFigure"/>
+  <connections name="BrandCampaigns" figure="BrandCampaignsFigure"/>
+  <connections name="BrandProductLines" figure="BrandProductLinesFigure"/>
+  <connections name="BrandDesigners" figure="BrandDesignersFigure"/>
+  <connections name="AdvertisingCampaignBrand" figure="AdvertisingCampaignBrandFigure"/>
+  <connections name="EventRoles" figure="EventRolesFigure"/>
+  <connections name="SingleBrandEventBrand" figure="SingleBrandEventBrandFigure"/>
+  <connections name="ProductLineBrand" figure="ProductLineBrandFigure"/>
+  <connections name="ProductReviews" figure="ProductReviewsFigure"/>
+  <connections name="ReviewProduct" figure="ReviewProductFigure"/>
+  <connections name="ReviewReviewer" figure="ReviewReviewerFigure"/>
+  <connections name="RoleEvents" figure="RoleEventsFigure"/>
+  <connections name="DesignerBrand" figure="DesignerBrandFigure"/>
+  <connections name="ReviewerReviews" figure="ReviewerReviewsFigure"/>
+  <compartments name="FashionStyleDescriptorsCompartment" figure="FashionStyleFigure" collapsible="true" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
+  <compartments name="FamousBrandReportsCompartment" figure="FamousBrandFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.1"/>
+  <compartments name="EmergingBrandReportsCompartment" figure="EmergingBrandFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <compartments name="LocalBrandReportsCompartment" figure="LocalBrandFigure" collapsible="true" accessor="//@figures.0/@descriptors.6/@accessors.1"/>
+  <compartments name="AdvertisingCampaignReportsCompartment" figure="AdvertisingCampaignFigure" collapsible="true" accessor="//@figures.0/@descriptors.7/@accessors.1"/>
+  <compartments name="AdvertisingCampaignProductsCompartment" figure="AdvertisingCampaignFigure" collapsible="true" accessor="//@figures.0/@descriptors.7/@accessors.2"/>
+  <compartments name="AdvertisingProductReportsCompartment" figure="AdvertisingProductFigure" collapsible="true" accessor="//@figures.0/@descriptors.8/@accessors.1"/>
+  <compartments name="MacroEventReportsCompartment" figure="MacroEventFigure" collapsible="true" accessor="//@figures.0/@descriptors.9/@accessors.1"/>
+  <compartments name="MacroEventSingleBrandEventsCompartment" figure="MacroEventFigure" collapsible="true" accessor="//@figures.0/@descriptors.9/@accessors.2"/>
+  <compartments name="SingleBrandEventReportsCompartment" figure="SingleBrandEventFigure" collapsible="true" accessor="//@figures.0/@descriptors.10/@accessors.1"/>
+  <compartments name="ProductLineReportsCompartment" figure="ProductLineFigure" collapsible="true" accessor="//@figures.0/@descriptors.11/@accessors.1"/>
+  <compartments name="ProductLineProductStylesCompartment" figure="ProductLineFigure" collapsible="true" accessor="//@figures.0/@descriptors.11/@accessors.2"/>
+  <compartments name="ProductLineProductsCompartment" figure="ProductLineFigure" collapsible="true" accessor="//@figures.0/@descriptors.11/@accessors.3"/>
+  <compartments name="ProductStyleReportsCompartment" figure="ProductStyleFigure" collapsible="true" accessor="//@figures.0/@descriptors.12/@accessors.1"/>
+  <compartments name="ProductReportsCompartment" figure="ProductFigure" collapsible="true" accessor="//@figures.0/@descriptors.13/@accessors.1"/>
+  <compartments name="PhotoReportsCompartment" figure="PhotoFigure" collapsible="true" accessor="//@figures.0/@descriptors.14/@accessors.1"/>
+  <compartments name="DescriptionReportsCompartment" figure="DescriptionFigure" collapsible="true" accessor="//@figures.0/@descriptors.15/@accessors.1"/>
+  <compartments name="CommentReportsCompartment" figure="CommentFigure" collapsible="true" accessor="//@figures.0/@descriptors.16/@accessors.1"/>
+  <compartments name="DesignerReportsCompartment" figure="DesignerFigure" collapsible="true" accessor="//@figures.0/@descriptors.17/@accessors.1"/>
+  <compartments name="ModelReportsCompartment" figure="ModelFigure" collapsible="true" accessor="//@figures.0/@descriptors.18/@accessors.1"/>
+  <compartments name="PresenterReportsCompartment" figure="PresenterFigure" collapsible="true" accessor="//@figures.0/@descriptors.19/@accessors.1"/>
+  <compartments name="ChoreographerReportsCompartment" figure="ChoreographerFigure" collapsible="true" accessor="//@figures.0/@descriptors.20/@accessors.1"/>
+  <compartments name="PhotographerReportsCompartment" figure="PhotographerFigure" collapsible="true" accessor="//@figures.0/@descriptors.21/@accessors.1"/>
+  <compartments name="BloggerReportsCompartment" figure="BloggerFigure" collapsible="true" accessor="//@figures.0/@descriptors.22/@accessors.1"/>
+  <compartments name="CriticReportsCompartment" figure="CriticFigure" collapsible="true" accessor="//@figures.0/@descriptors.23/@accessors.1"/>
+  <compartments name="InfluencerReportsCompartment" figure="InfluencerFigure" collapsible="true" accessor="//@figures.0/@descriptors.24/@accessors.1"/>
+  <labels name="ArticleLabel" figure="ArticleFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="TVProgramLabel" figure="TVProgramFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="FashionStyleLabel" figure="FashionStyleFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="SpatioTemporalDescriptorLabel" figure="SpatioTemporalDescriptorFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="FamousBrandLabel" figure="FamousBrandFigure" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="EmergingBrandLabel" figure="EmergingBrandFigure" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="LocalBrandLabel" figure="LocalBrandFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="AdvertisingCampaignLabel" figure="AdvertisingCampaignFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="AdvertisingProductLabel" figure="AdvertisingProductFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="MacroEventLabel" figure="MacroEventFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="SingleBrandEventLabel" figure="SingleBrandEventFigure" accessor="//@figures.0/@descriptors.10/@accessors.0"/>
+  <labels name="ProductLineLabel" figure="ProductLineFigure" accessor="//@figures.0/@descriptors.11/@accessors.0"/>
+  <labels name="ProductStyleLabel" figure="ProductStyleFigure" accessor="//@figures.0/@descriptors.12/@accessors.0"/>
+  <labels name="ProductLabel" figure="ProductFigure" accessor="//@figures.0/@descriptors.13/@accessors.0"/>
+  <labels name="PhotoLabel" figure="PhotoFigure" accessor="//@figures.0/@descriptors.14/@accessors.0"/>
+  <labels name="DescriptionLabel" figure="DescriptionFigure" accessor="//@figures.0/@descriptors.15/@accessors.0"/>
+  <labels name="CommentLabel" figure="CommentFigure" accessor="//@figures.0/@descriptors.16/@accessors.0"/>
+  <labels name="DesignerLabel" figure="DesignerFigure" accessor="//@figures.0/@descriptors.17/@accessors.0"/>
+  <labels name="ModelLabel" figure="ModelFigure" accessor="//@figures.0/@descriptors.18/@accessors.0"/>
+  <labels name="PresenterLabel" figure="PresenterFigure" accessor="//@figures.0/@descriptors.19/@accessors.0"/>
+  <labels name="ChoreographerLabel" figure="ChoreographerFigure" accessor="//@figures.0/@descriptors.20/@accessors.0"/>
+  <labels name="PhotographerLabel" figure="PhotographerFigure" accessor="//@figures.0/@descriptors.21/@accessors.0"/>
+  <labels name="BloggerLabel" figure="BloggerFigure" accessor="//@figures.0/@descriptors.22/@accessors.0"/>
+  <labels name="CriticLabel" figure="CriticFigure" accessor="//@figures.0/@descriptors.23/@accessors.0"/>
+  <labels name="InfluencerLabel" figure="InfluencerFigure" accessor="//@figures.0/@descriptors.24/@accessors.0"/>
+  <labels name="FashionElementStylesExternalLabel" figure="FashionElementStylesExternalLabelFigure" elementIcon="false"/>
+  <labels name="NewsReportElementsExternalLabel" figure="NewsReportElementsExternalLabelFigure" elementIcon="false"/>
+  <labels name="FashionStyleElementsExternalLabel" figure="FashionStyleElementsExternalLabelFigure" elementIcon="false"/>
+  <labels name="BrandCampaignsExternalLabel" figure="BrandCampaignsExternalLabelFigure" elementIcon="false"/>
+  <labels name="BrandProductLinesExternalLabel" figure="BrandProductLinesExternalLabelFigure" elementIcon="false"/>
+  <labels name="BrandDesignersExternalLabel" figure="BrandDesignersExternalLabelFigure" elementIcon="false"/>
+  <labels name="AdvertisingCampaignBrandExternalLabel" figure="AdvertisingCampaignBrandExternalLabelFigure" elementIcon="false"/>
+  <labels name="EventRolesExternalLabel" figure="EventRolesExternalLabelFigure" elementIcon="false"/>
+  <labels name="SingleBrandEventBrandExternalLabel" figure="SingleBrandEventBrandExternalLabelFigure" elementIcon="false"/>
+  <labels name="ProductLineBrandExternalLabel" figure="ProductLineBrandExternalLabelFigure" elementIcon="false"/>
+  <labels name="ProductReviewsExternalLabel" figure="ProductReviewsExternalLabelFigure" elementIcon="false"/>
+  <labels name="ReviewProductExternalLabel" figure="ReviewProductExternalLabelFigure" elementIcon="false"/>
+  <labels name="ReviewReviewerExternalLabel" figure="ReviewReviewerExternalLabelFigure" elementIcon="false"/>
+  <labels name="RoleEventsExternalLabel" figure="RoleEventsExternalLabelFigure" elementIcon="false"/>
+  <labels name="DesignerBrandExternalLabel" figure="DesignerBrandExternalLabelFigure" elementIcon="false"/>
+  <labels name="ReviewerReviewsExternalLabel" figure="ReviewerReviewsExternalLabelFigure" elementIcon="false"/>
+</gmfgraph:Canvas>

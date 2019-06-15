@@ -1,0 +1,7 @@
+# Tracing options for the it.polimi.ase.projectB2.team20.diagram plug-in
+
+# Common issues
+it.polimi.ase.projectB2.team20.diagram/debug=false
+
+# Visual IDs
+it.polimi.ase.projectB2.team20.diagram/debug/visualID=false

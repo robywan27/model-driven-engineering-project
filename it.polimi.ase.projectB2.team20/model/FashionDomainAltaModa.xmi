@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ase.projectB.team20.fashion:FashionDomain
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ase.projectB.team20.fashion="http://fashion.it"
+    xsi:schemaLocation="http://fashion.it fashion.ecore">
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.3 //@styles.9 //@styles.10 //@styles.11"
+      name="Gucci"
+      campaigns="//@elements.37"
+      designers="//@elements.54">
+    <countries>Worldwide </countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Armani"
+      campaigns="//@elements.25"
+      productLines="//@elements.193 //@elements.194 //@elements.195"
+      designers="//@elements.55">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6 //@styles.9 //@styles.10 //@styles.5"
+      name="Dolce&amp;Gabbana"
+      campaigns="//@elements.29"
+      designers="//@elements.65">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.3 //@styles.4 //@styles.9 //@styles.10 //@styles.8"
+      name="Moschino"
+      campaigns="//@elements.33"
+      productLines="//@elements.196 //@elements.197"
+      designers="//@elements.59">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7"
+      name="Ralph Lauren"
+      campaigns="//@elements.32"
+      productLines="//@elements.198 //@elements.199"
+      designers="//@elements.70">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.2 //@styles.9 //@styles.10"
+      name="Balmain"
+      campaigns="//@elements.36"
+      designers="//@elements.60">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.5 //@styles.8 //@styles.11 //@styles.1"
+      name="Kenzo"
+      campaigns="//@elements.42"
+      designers="//@elements.74">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.8 //@styles.9 //@styles.10"
+      name="Givenchy"
+      campaigns="//@elements.38"
+      designers="//@elements.62">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.10"
+      name="Prada"
+      campaigns="//@elements.39"
+      designers="//@elements.63">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.1 //@styles.6 //@styles.9 //@styles.7"
+      name="Louis Vuitton"
+      campaigns="//@elements.49"
+      designers="//@elements.66">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.9 //@styles.10 //@styles.11 //@styles.6"
+      name="Dior"
+      campaigns="//@elements.31"
+      designers="//@elements.58">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.11"
+      name="Dsquared2"
+      campaigns="//@elements.53"
+      designers="//@elements.64">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6 //@styles.9"
+      name="Valentino"
+      campaigns="//@elements.48"
+      designers="//@elements.75">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Burberry"
+      campaigns="//@elements.24"
+      designers="//@elements.67">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6 //@styles.9 //@styles.10 //@styles.2"
+      name="Fendi"
+      campaigns="//@elements.43"
+      designers="//@elements.68">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6 //@styles.9 //@styles.5"
+      name="Salvatore Ferragamo"
+      campaigns="//@elements.46"
+      designers="//@elements.73">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.3 //@styles.4 //@styles.9 //@styles.10"
+      name="Lanvin"
+      campaigns="//@elements.26 //@elements.45"
+      designers="//@elements.56">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.3 //@styles.10 //@styles.11"
+      name="Cavalli"
+      campaigns="//@elements.40 //@elements.52"
+      productLines="//@elements.200 //@elements.201"
+      designers="//@elements.71">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.2 //@styles.3 //@styles.10 //@styles.11 //@styles.4"
+      name="Versace"
+      campaigns="//@elements.28 //@elements.41"
+      productLines="//@elements.202 //@elements.203 //@elements.204"
+      designers="//@elements.72">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6 //@styles.8 //@styles.9 //@styles.10"
+      name="Saint Laurent"
+      campaigns="//@elements.34"
+      designers="//@elements.76">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.3 //@styles.4 //@styles.8 //@styles.9"
+      name="Tom Ford"
+      campaigns="//@elements.27 //@elements.44"
+      designers="//@elements.77">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.9 //@styles.10"
+      name="Hermes"
+      campaigns="//@elements.35 //@elements.51"
+      designers="//@elements.69">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.8 //@styles.9"
+      name="Balenciaga"
+      campaigns="//@elements.50"
+      designers="//@elements.57">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:FamousBrand"
+      styles="//@styles.6"
+      name="Ermenegildo Zegna"
+      campaigns="//@elements.30 //@elements.47"
+      designers="//@elements.61">
+    <countries>Worldwide</countries>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.0"
+      name="Fall-Winter Casual "
+      brand="//@elements.13"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.1"
+      name="Fall-Winter Trendy"
+      brand="//@elements.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.2"
+      name="Fall-Winter Exotic"
+      brand="//@elements.16"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.3"
+      name="Fall-Winter Artsy"
+      brand="//@elements.20"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.4"
+      name="Fall-Winter Sexy"
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.5"
+      name="Fall-Winter Punk "
+      brand="//@elements.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.6"
+      name="Fall-Winter Elegant"
+      brand="//@elements.23"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.6"
+      name="Fall-Winter Elegant"
+      brand="//@elements.10"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.7"
+      name="Fall-Winter Sportly"
+      brand="//@elements.4"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.8"
+      name="Fall-Winter Vintage"
+      brand="//@elements.3"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.8"
+      name="Fall-Winter Vintage"
+      brand="//@elements.19"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.9"
+      name="Fall-Winter Chic "
+      brand="//@elements.21"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.10"
+      name="Fall-Winter Sophisticated "
+      brand="//@elements.5"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.10"
+      name="Fall-Winter Sophisticated"
+      brand="//@elements.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.10"
+      name="Fall-Winter Sophisticated"
+      brand="//@elements.7"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.10"
+      name="Fall-Winter Sophisticated"
+      brand="//@elements.8"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.11"
+      name="Fall-Winter Rocker "
+      brand="//@elements.17"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.0"
+      name="Spring-Summer Casual"
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.1"
+      name="Spring-Summer Trendy"
+      brand="//@elements.6"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.2"
+      name="Spring-Summer Exotic"
+      brand="//@elements.14"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.3"
+      name="Spring-Summer Artsy"
+      brand="//@elements.20"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.4"
+      name="Spring-Summer Sexy"
+      brand="//@elements.16"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.5"
+      name="Spring-Summer Punk"
+      brand="//@elements.15"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.6"
+      name="Spring-Summer Elegant"
+      brand="//@elements.23"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.6"
+      name="Spring-Summer Elegant"
+      brand="//@elements.12"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.7"
+      name="Spring-Summer Sportly"
+      brand="//@elements.9"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.8"
+      name="Spring-Summer Vintage"
+      brand="//@elements.22"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.9"
+      name="Spring-Summer Chic"
+      brand="//@elements.21"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.10"
+      name="Spring-Summer Sophisticated"
+      brand="//@elements.17"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:AdvertisingCampaign"
+      styles="//@styles.11"
+      name="Spring-Summer Rocker"
+      brand="//@elements.11"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.3 //@styles.10"
+      name="Alessandro Michele"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.188 //@elements.189 //@elements.190 //@elements.191 //@elements.176/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.1 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6"
+      name="Giorgio Armani"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.187"
+      brand="//@elements.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.9 //@styles.10"
+      name="Bouchra Jarrar &#xA;Lanvin Confirms Bouchra Jarrar"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.16"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.9 //@styles.10"
+      name="Jil Sander"
+      events="//@elements.176 //@elements.178 //@elements.180 //@elements.182 //@elements.186 //@elements.184"
+      brand="//@elements.22"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.9 //@styles.10"
+      name="Karl Lagerfeld"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.1"
+      brand="//@elements.10"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.4 //@styles.11"
+      name="Adam Lippes"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187 //@elements.192"
+      brand="//@elements.3"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.4 //@styles.9 //@styles.10"
+      name="Barbara Bui"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.187"
+      brand="//@elements.5"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6"
+      name="Barbara Croce"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.3 //@elements.179 //@elements.181 //@elements.183 //@elements.185 //@elements.187"
+      brand="//@elements.23"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.9"
+      name="Egon Von Furstenberg"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.1 //@elements.187"
+      brand="//@elements.7"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.10"
+      name="Edmundo Castillo"
+      events="//@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.4 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.8"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.0 //@styles.1 //@styles.10 //@styles.11"
+      name="Dan Caten"
+      events="//@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.2 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.11"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.10"
+      name="Domecico Dolce"
+      events="//@elements.176/@singleBrandEvents.2 //@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.187"
+      brand="//@elements.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Hana Sadiq"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187 //@elements.187/@singleBrandEvents.0"
+      brand="//@elements.9"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Jack Mc Collough"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.13"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Karen Walker "
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.14"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Manolo Blahnik"
+      events="//@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.180 //@elements.182 //@elements.186 //@elements.184"
+      brand="//@elements.21"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7"
+      name="Ralph Lauren"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.4"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.2 //@styles.3 //@styles.4 //@styles.5"
+      name="Paola Frani"
+      events="//@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.0 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.17"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.11"
+      name="Raf Simons"
+      events="//@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.1 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.9"
+      name="Salvatore Ferragamo"
+      events="//@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.178 //@elements.182 //@elements.186 //@elements.184"
+      brand="//@elements.15"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.2 //@styles.3 //@styles.10 //@styles.11"
+      name="Takada Kenzo"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.6"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6"
+      name="Valentino Garavani"
+      events="//@elements.176/@singleBrandEvents.3 //@elements.176 //@elements.178 //@elements.182 //@elements.186 //@elements.184"
+      brand="//@elements.12"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Yohji Yamamoto"
+      events="//@elements.176 //@elements.177 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.179 //@elements.181 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.187"
+      brand="//@elements.19"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Designer"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Tom Ford"
+      events="//@elements.176 //@elements.177 //@elements.178 //@elements.178/@singleBrandEvents.2 //@elements.179 //@elements.181 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.186 //@elements.184 //@elements.185 //@elements.187"
+      brand="//@elements.20"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.0"
+      name="Gigi Hadid"
+      events="//@elements.176 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.1"
+      name="Kate Moss"
+      events="//@elements.176 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.2 //@styles.6"
+      name="Bianca Balti"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.176/@singleBrandEvents.2 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.4 //@styles.6"
+      name="Naomi Campbell"
+      events="//@elements.176/@singleBrandEvents.2 //@elements.176 //@elements.178 //@elements.178/@singleBrandEvents.2 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.8 //@styles.10"
+      name="Kendall Jenner"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176/@singleBrandEvents.2 //@elements.176 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.6"
+      name="Gisele Bundchen"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.6"
+      name="Candice Swanepoel"
+      events="//@elements.176 //@elements.176/@singleBrandEvents.2 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.1 //@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.1"
+      name="Adriana Lima"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.176/@singleBrandEvents.2 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.180 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.186/@singleBrandEvents.1 //@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.0"
+      name="Karlie Kloss"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176/@singleBrandEvents.3 //@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.180 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.4"
+      name="Cara Delevigne"
+      events="//@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.178/@singleBrandEvents.2 //@elements.180 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.3"
+      name="Bella Hadid"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.180 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.10"
+      name="Alessandra Ambrosio"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.178 //@elements.180 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.7"
+      name="Sara Sampaio"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.178 //@elements.180 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.0"
+      name="Fabio Mancini"
+      events="//@elements.177 //@elements.179 //@elements.179/@singleBrandEvents.2 //@elements.181 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.1"
+      name="Alessio Pozzi"
+      events="//@elements.177 //@elements.179 //@elements.179/@singleBrandEvents.2 //@elements.181 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.6"
+      name="Lucky Blue Smith"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.3 //@elements.179 //@elements.179/@singleBrandEvents.2 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.7"
+      name="Sean O'Pry"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.1 //@elements.177/@singleBrandEvents.3 //@elements.179 //@elements.179/@singleBrandEvents.2 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.8"
+      name="Ton Heukels"
+      events="//@elements.177/@singleBrandEvents.1 //@elements.179 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.9"
+      name="Giovanni Bonamy"
+      events="//@elements.177/@singleBrandEvents.4 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.10"
+      name="Alexandre Cunha"
+      events="//@elements.177/@singleBrandEvents.4 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.0"
+      name="Stephen Jamaes"
+      events="//@elements.177 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.1"
+      name="David Gandy"
+      events="//@elements.177 //@elements.179 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.6"
+      name="Simon Nessman"
+      events="//@elements.177/@singleBrandEvents.0 //@elements.179 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.7"
+      name="Arthur Kulkov"
+      events="//@elements.177/@singleBrandEvents.2 //@elements.179 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.1 //@elements.181 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.9"
+      name="Noah Mills"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.0 //@elements.177/@singleBrandEvents.4 //@elements.179 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.1 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.181/@singleBrandEvents.2 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Model"
+      styles="//@styles.10"
+      name="Ryan Burns"
+      events="//@elements.177/@singleBrandEvents.0 //@elements.177/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.4 //@elements.179 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.1 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.183 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.0"
+      product="//@elements.217"
+      reviewer="//@elements.147"
+      tags="Dresses"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.1"
+      product="//@elements.250"
+      reviewer="//@elements.153"
+      tags="Shorts"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.2"
+      product="//@elements.245"
+      reviewer="//@elements.149"
+      tags="Beachwear"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.3"
+      product="//@elements.222"
+      reviewer="//@elements.150"
+      tags="Top"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.6"
+      product="//@elements.248"
+      reviewer="//@elements.151"
+      tags="Blazers"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.4"
+      product="//@elements.241"
+      reviewer="//@elements.152"
+      tags="Scarves"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photo"
+      styles="//@styles.5"
+      product="//@elements.236"
+      reviewer="//@elements.153"
+      tags="Foulard"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.8"
+      product="//@elements.218"
+      reviewer="//@elements.154"
+      text="Jumpers"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.7"
+      product="//@elements.239"
+      reviewer="//@elements.155"
+      text="Watches"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.10"
+      product="//@elements.246"
+      reviewer="//@elements.156"
+      text="Perfumes"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.9"
+      product="//@elements.235"
+      reviewer="//@elements.157"
+      text="Belt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.9"
+      product="//@elements.232"
+      reviewer="//@elements.158"
+      text="Bag"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.11"
+      product="//@elements.230"
+      reviewer="//@elements.159"
+      text="Skirt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Description"
+      styles="//@styles.10"
+      product="//@elements.228"
+      reviewer="//@elements.160"
+      text="Jumpsuit"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.8"
+      product="//@elements.221"
+      reviewer="//@elements.161"
+      text="T-shirt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.9"
+      product="//@elements.223"
+      reviewer="//@elements.162"
+      text="Coat"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.0"
+      product="//@elements.226"
+      reviewer="//@elements.163"
+      text="Casual Shirt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.4"
+      product="//@elements.224"
+      reviewer="//@elements.164"
+      text="Jacket"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.1"
+      product="//@elements.231"
+      reviewer="//@elements.165"
+      text="Sweatshirt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.6"
+      product="//@elements.247"
+      reviewer="//@elements.166"
+      text="Suits"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.7"
+      product="//@elements.233"
+      reviewer="//@elements.167"
+      text="Shoes"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.9"
+      product="//@elements.237"
+      reviewer="//@elements.147"
+      text="Keyring"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Comment"
+      styles="//@styles.4"
+      product="//@elements.251"
+      reviewer="//@elements.148"
+      text="Underwear"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.3 //@styles.4 //@styles.9 //@styles.10"
+      name="Gok Wan"
+      events="//@elements.181/@singleBrandEvents.1 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.186"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.0 //@styles.1 //@styles.5 //@styles.6 //@styles.8"
+      name="Marvin Humes"
+      events="//@elements.178 //@elements.178/@singleBrandEvents.0 //@elements.178/@singleBrandEvents.1 //@elements.180/@singleBrandEvents.1 //@elements.179 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.2 //@elements.177 //@elements.177/@singleBrandEvents.4 //@elements.176 //@elements.176/@singleBrandEvents.2"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.5 //@styles.9 //@styles.10"
+      name="Ben Shephard"
+      events="//@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182 //@elements.182/@singleBrandEvents.2 //@elements.183 //@elements.180"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.10"
+      name="Natasha Kaplinsky"
+      events="//@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Darcey Bussell"
+      events="//@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.185/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.2"
+      name="Giulia Prestigiacomo"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Presenter"
+      styles="//@styles.3"
+      name="Darren Kennedy"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.3 //@styles.4"
+      name="Paula Abdul"
+      events="//@elements.178 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.187 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.9 //@styles.10"
+      name="George Balanchine"
+      events="//@elements.178 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.187"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.3 //@styles.7 //@styles.8 //@styles.11"
+      name="Claude Balon"
+      events="//@elements.178 //@elements.178/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.185"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.1 //@styles.2 //@styles.5 //@styles.9"
+      name="Gloria Campobello"
+      events="//@elements.178 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.0 //@styles.1"
+      name="Remo D'souza"
+      events="//@elements.177/@singleBrandEvents.4 //@elements.176/@singleBrandEvents.2 //@elements.178 //@elements.177 //@elements.176 //@elements.180 //@elements.181 //@elements.182 //@elements.184 //@elements.185"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Choreographer"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.5 //@styles.8 //@styles.10"
+      name="Lokesh Sharma"
+      events="//@elements.178 //@elements.178/@singleBrandEvents.0 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.0 //@styles.5"
+      name="Luca Patrone"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.178 //@elements.177 //@elements.179 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.187"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.3"
+      name="Roberto Gandoli "
+      events="//@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.179 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.0"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.2 //@styles.3"
+      name="Meka"
+      events="//@elements.177 //@elements.176/@singleBrandEvents.2 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.10"
+      name="Sebastian Kim"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.4 //@elements.176/@singleBrandEvents.2 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.176 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.187"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.11"
+      name="Victor Demarchelier"
+      events="//@elements.177/@singleBrandEvents.4 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.192"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.6"
+      name="Nanny Goats"
+      events="//@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.0 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.181/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Photographer"
+      styles="//@styles.10"
+      name="Sidewalk Hustle"
+      events="//@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.181/@singleBrandEvents.2 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.187 //@elements.187/@singleBrandEvents.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.9 //@styles.10"
+      name="Chiara Biasi"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.178 //@elements.177 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.182 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2"
+      reviews="//@elements.104 //@elements.125"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.2 //@styles.3 //@styles.4"
+      name="Chiara Ferragni"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2"
+      reviews="//@elements.126"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.0 //@styles.1 //@styles.4"
+      name="Chiara Nasti"
+      events="//@elements.176 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.178/@singleBrandEvents.2 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.180 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.106"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.5 //@styles.10 //@styles.11"
+      name="Maria Rosaria Rizzo"
+      events="//@elements.176/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.176 //@elements.178/@singleBrandEvents.2 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.107"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.1 //@styles.6"
+      name="Valentina Coco"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.177/@singleBrandEvents.0 //@elements.177/@singleBrandEvents.4 //@elements.178 //@elements.177 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.185 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.108"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.2 //@styles.3 //@styles.4 //@styles.5"
+      name="Larisa Costea"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176/@singleBrandEvents.4 //@elements.177/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.176 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.109"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Blogger"
+      styles="//@styles.0 //@styles.1"
+      name="Lucy Van Dean"
+      events="//@elements.176/@singleBrandEvents.4 //@elements.177 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.176 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2"
+      reviews="//@elements.105 //@elements.110"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.8"
+      name="Bryanboy"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.1 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"
+      reviews="//@elements.111"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.6 //@styles.7 //@styles.9"
+      name="Robin Givhan"
+      events="//@elements.177 //@elements.178 //@elements.176 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.187"
+      reviews="//@elements.112"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.6 //@styles.10"
+      name="Vanessa Friedman"
+      events="//@elements.176 //@elements.177/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.187"
+      reviews="//@elements.113"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.3 //@styles.9"
+      name="Eric Wilson"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.178/@singleBrandEvents.2 //@elements.179 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"
+      reviews="//@elements.114"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Alexandra Jacobs"
+      events="//@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.0"
+      reviews="//@elements.115"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Critic"
+      styles="//@styles.3 //@styles.4 //@styles.11"
+      name="Suzy Menke"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.176/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.0 //@elements.177/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.187"
+      reviews="//@elements.116"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.3 //@styles.4"
+      name="Olivia Palermo"
+      events="//@elements.176/@singleBrandEvents.1 //@elements.177 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.176 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182/@singleBrandEvents.2 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.187/@singleBrandEvents.1"
+      reviews="//@elements.117"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.3 //@styles.4 //@styles.9"
+      name="Kylie Jenner"
+      events="//@elements.176/@singleBrandEvents.3 //@elements.177/@singleBrandEvents.1 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.182/@singleBrandEvents.0 //@elements.182 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.192"
+      reviews="//@elements.118"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Kim Kardashian"
+      events="//@elements.177 //@elements.177/@singleBrandEvents.0 //@elements.177/@singleBrandEvents.4 //@elements.178 //@elements.176 //@elements.178/@singleBrandEvents.2 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.2 //@elements.182 //@elements.184 //@elements.184/@singleBrandEvents.1 //@elements.185 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.119"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.1 //@styles.3 //@styles.5 //@styles.6 //@styles.10"
+      name="Candela"
+      events="//@elements.176/@singleBrandEvents.3 //@elements.176 //@elements.177/@singleBrandEvents.1 //@elements.177/@singleBrandEvents.2 //@elements.177/@singleBrandEvents.4 //@elements.178/@singleBrandEvents.0 //@elements.178 //@elements.177 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.180/@singleBrandEvents.1 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.182/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.187 //@elements.187/@singleBrandEvents.0"
+      reviews="//@elements.120"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.9 //@styles.10 //@styles.11"
+      name="Gilda Ambrosio"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176/@singleBrandEvents.3 //@elements.177/@singleBrandEvents.3 //@elements.178 //@elements.177 //@elements.176 //@elements.179/@singleBrandEvents.0 //@elements.179/@singleBrandEvents.2 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.181/@singleBrandEvents.0 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.186/@singleBrandEvents.1 //@elements.187 //@elements.187/@singleBrandEvents.1"
+      reviews="//@elements.121"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.0 //@styles.2 //@styles.5 //@styles.7"
+      name="Eleonora Carisi"
+      events="//@elements.176/@singleBrandEvents.0 //@elements.176 //@elements.177 //@elements.178 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.182/@singleBrandEvents.0 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.1"
+      reviews="//@elements.122"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.6 //@styles.9 //@styles.10"
+      name="Linda Tol"
+      events="//@elements.176 //@elements.177/@singleBrandEvents.1 //@elements.178 //@elements.177 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.183 //@elements.184 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.185/@singleBrandEvents.1 //@elements.187"
+      reviews="//@elements.123"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Influencer"
+      styles="//@styles.7"
+      name="Anna Dello Russo"
+      events="//@elements.178 //@elements.177 //@elements.176 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.181 //@elements.184 //@elements.185 //@elements.185/@singleBrandEvents.2 //@elements.192"
+      reviews="//@elements.124"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="L.G:R"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="N°21"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Fausto Puglisi"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Paul Andrew"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Sanchita"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Unravel"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Stella Jean"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:EmergingBrand"
+      name="Yeezy"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Milan fashion week fall-winter woman "
+      year="2017"
+      month="9"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.73 //@elements.74 //@elements.75 //@elements.76 //@elements.77 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.89 //@elements.90 //@elements.140 //@elements.141 //@elements.147 //@elements.149 //@elements.151 //@elements.157 //@elements.156 //@elements.158 //@elements.163 //@elements.165 //@elements.166 //@elements.138 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.148 //@elements.150 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.164 //@elements.167 //@elements.128"
+      city="Milan">
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="Cocktail party"
+        year="2017"
+        month="9"
+        roles="//@elements.54 //@elements.80 //@elements.82 //@elements.85 //@elements.86 //@elements.89 //@elements.140 //@elements.147 //@elements.148 //@elements.154 //@elements.157 //@elements.164 //@elements.165"
+        day="3"
+        hour="17"
+        brand="//@elements.0"/>
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="Cocktail party"
+        year="2017"
+        month="9"
+        roles="//@elements.55 //@elements.83 //@elements.88 //@elements.90 //@elements.151 //@elements.152 //@elements.159 //@elements.160"
+        day="2"
+        hour="18"
+        brand="//@elements.1"/>
+    <singleBrandEvents
+        styles="//@styles.9"
+        name="Runway show"
+        year="2017"
+        month="9"
+        roles="//@elements.65 //@elements.81 //@elements.82 //@elements.150 //@elements.159 //@elements.80 //@elements.84 //@elements.85 //@elements.138 //@elements.142 //@elements.143 //@elements.128"
+        day="2"
+        hour="18"
+        brand="//@elements.2"/>
+    <singleBrandEvents
+        styles="//@styles.1"
+        name="After Party"
+        year="2017"
+        month="9"
+        roles="//@elements.75 //@elements.86 //@elements.161 //@elements.163 //@elements.164"
+        day="3"
+        hour="21"
+        brand="//@elements.12"/>
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="After Party"
+        year="2017"
+        month="9"
+        roles="//@elements.73 //@elements.88 //@elements.90 //@elements.151 //@elements.152 //@elements.153 //@elements.158"
+        day="1"
+        hour="22"
+        brand="//@elements.15"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Milan fashion week fall-winter mens"
+      year="2017"
+      month="11"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.91 //@elements.92 //@elements.93 //@elements.94 //@elements.98 //@elements.99 //@elements.102 //@elements.142 //@elements.143 //@elements.153 //@elements.155 //@elements.160 //@elements.162 //@elements.165 //@elements.138 //@elements.140 //@elements.141 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.154 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.161 //@elements.163 //@elements.164 //@elements.166 //@elements.167 //@elements.128"
+      city="Milan">
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="Cocktail party"
+        year="2017"
+        month="11"
+        roles="//@elements.71 //@elements.100 //@elements.102 //@elements.103 //@elements.151 //@elements.159 //@elements.162"
+        day="1"
+        hour="18"
+        brand="//@elements.17"/>
+    <singleBrandEvents
+        styles="//@styles.1"
+        name="Cocktail party"
+        month="11"
+        roles="//@elements.72 //@elements.94 //@elements.95 //@elements.156 //@elements.161 //@elements.163 //@elements.166"
+        day="2"
+        hour="19"
+        brand="//@elements.18"/>
+    <singleBrandEvents
+        styles="//@styles.11"
+        name="After party"
+        year="2017"
+        month="11"
+        roles="//@elements.64 //@elements.101 //@elements.103 //@elements.152 //@elements.159 //@elements.163"
+        day="3"
+        hour="22"
+        brand="//@elements.11"/>
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="After party"
+        year="2017"
+        month="11"
+        roles="//@elements.61 //@elements.93 //@elements.94 //@elements.164"
+        day="3"
+        hour="21"
+        minute="30"
+        brand="//@elements.23"/>
+    <singleBrandEvents
+        styles="//@styles.1"
+        name="Runway show"
+        year="2017"
+        month="11"
+        roles="//@elements.63 //@elements.96 //@elements.97 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.157 //@elements.158 //@elements.159 //@elements.162 //@elements.163 //@elements.102 //@elements.103 //@elements.138 //@elements.143 //@elements.144 //@elements.145 //@elements.128"
+        day="4"
+        hour="14"
+        brand="//@elements.8"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Milan fashion week spring-summer woman "
+      year="2017"
+      month="8"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.73 //@elements.74 //@elements.75 //@elements.76 //@elements.77 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.89 //@elements.90 //@elements.128 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167"
+      city="Milan">
+    <singleBrandEvents
+        styles="//@styles.9"
+        name="Runway show"
+        year="2017"
+        month="10"
+        roles="//@elements.69 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.141 //@elements.143 //@elements.145 //@elements.148 //@elements.149 //@elements.150 //@elements.157 //@elements.159 //@elements.163 //@elements.128 //@elements.139"
+        day="1"
+        hour="11"
+        brand="//@elements.21"/>
+    <singleBrandEvents
+        styles="//@styles.6 //@styles.9"
+        name="Runway show"
+        year="2017"
+        month="8"
+        roles="//@elements.76 //@elements.78 //@elements.79 //@elements.80 //@elements.83 //@elements.142 //@elements.145 //@elements.146 //@elements.152 //@elements.153 //@elements.158 //@elements.160 //@elements.161 //@elements.128 //@elements.136"
+        day="2"
+        hour="15"
+        brand="//@elements.19"/>
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="Cocktail party"
+        year="2017"
+        month="8"
+        roles="//@elements.77 //@elements.81 //@elements.87 //@elements.149 //@elements.150 //@elements.157 //@elements.162"
+        day="3"
+        hour="19"
+        brand="//@elements.20"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="Milan fashion week spring-summer mens "
+      year="2017"
+      month="5"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.134 //@elements.137 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167 //@elements.91 //@elements.92 //@elements.93 //@elements.94 //@elements.95 //@elements.96 //@elements.97 //@elements.98 //@elements.99 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.128"
+      city="Milan">
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="Runway show"
+        year="2017"
+        month="5"
+        roles="//@elements.54 //@elements.134 //@elements.142 //@elements.143 //@elements.150 //@elements.152 //@elements.156 //@elements.164 //@elements.165 //@elements.166 //@elements.101 //@elements.102 //@elements.103 //@elements.128"
+        day="1"
+        hour="17"
+        brand="//@elements.0"/>
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="Cocktail party"
+        year="2017"
+        month="5"
+        roles="//@elements.54 //@elements.101 //@elements.102 //@elements.103 //@elements.134 //@elements.142 //@elements.143 //@elements.150 //@elements.152 //@elements.156 //@elements.164 //@elements.165 //@elements.166"
+        day="1"
+        hour="19"
+        brand="//@elements.0"/>
+    <singleBrandEvents
+        styles="//@styles.7"
+        name="Runway show"
+        year="2017"
+        month="5"
+        roles="//@elements.59 //@elements.137 //@elements.149 //@elements.150 //@elements.155 //@elements.158 //@elements.163 //@elements.164 //@elements.91 //@elements.92 //@elements.93 //@elements.94 //@elements.128"
+        day="2"
+        hour="12"
+        brand="//@elements.3"/>
+    <singleBrandEvents
+        styles="//@styles.9"
+        name="After party"
+        year="2017"
+        month="5"
+        roles="//@elements.56 //@elements.96 //@elements.97 //@elements.98 //@elements.145 //@elements.146 //@elements.147 //@elements.151 //@elements.153 //@elements.158 //@elements.159 //@elements.164 //@elements.167"
+        day="3"
+        hour="20"
+        brand="//@elements.16"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="London fashion week spring-summer woman "
+      year="2017"
+      month="1"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.89 //@elements.90 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167 //@elements.129"
+      city="London">
+    <singleBrandEvents
+        styles="//@styles.6 //@styles.9"
+        name="Cocktail party"
+        year="2017"
+        month="1"
+        roles="//@elements.144 //@elements.145 //@elements.66 //@elements.78 //@elements.79 //@elements.80 //@elements.152 //@elements.159 //@elements.163"
+        day="1"
+        hour="18"
+        brand="//@elements.9"/>
+    <singleBrandEvents
+        styles="//@styles.5 //@styles.11"
+        name="Runway show"
+        year="2017"
+        month="1"
+        roles="//@elements.74 //@elements.128 //@elements.139 //@elements.145 //@elements.152 //@elements.153 //@elements.157 //@elements.163 //@elements.81 //@elements.82 //@elements.83 //@elements.84"
+        day="2"
+        hour="11"
+        brand="//@elements.6"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="London fashion week spring-summer mens"
+      year="2017"
+      month="2"
+      roles="//@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.91 //@elements.92 //@elements.93 //@elements.94 //@elements.95 //@elements.96 //@elements.97 //@elements.98 //@elements.99 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.129 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139"
+      city="London">
+    <singleBrandEvents
+        styles="//@styles.6 //@styles.8"
+        name="After party"
+        year="2017"
+        month="2"
+        roles="//@elements.70 //@elements.95 //@elements.96 //@elements.146 //@elements.154 //@elements.164 //@elements.165"
+        day="1"
+        hour="20"
+        brand="//@elements.4"/>
+    <singleBrandEvents
+        styles="//@styles.9"
+        name="Runway show"
+        year="2017"
+        month="2"
+        roles="//@elements.129 //@elements.62 //@elements.102 //@elements.103 //@elements.127 //@elements.139 //@elements.145 //@elements.153 //@elements.160 //@elements.164"
+        day="2"
+        hour="15"
+        brand="//@elements.7"/>
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="Cocktail party"
+        year="2017"
+        month="2"
+        roles="//@elements.67 //@elements.99 //@elements.102 //@elements.145 //@elements.146 //@elements.157 //@elements.159 //@elements.161 //@elements.162"
+        day="3"
+        hour="19"
+        brand="//@elements.13"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="London fashion week fall-winter woman "
+      year="2017"
+      month="4"
+      roles="//@elements.129 //@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.73 //@elements.74 //@elements.75 //@elements.76 //@elements.77 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.89 //@elements.90 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163"
+      city="London">
+    <singleBrandEvents
+        styles="//@styles.9 //@styles.10"
+        name="After party"
+        year="2017"
+        month="4"
+        roles="//@elements.80 //@elements.85 //@elements.87 //@elements.144 //@elements.146 //@elements.149 //@elements.151 //@elements.152 //@elements.154 //@elements.156 //@elements.161 //@elements.163 //@elements.165"
+        day="3"
+        hour="20"
+        brand="//@elements.14"/>
+    <singleBrandEvents
+        styles="//@styles.4"
+        name="Cocktail party"
+        year="2017"
+        month="4"
+        roles="//@elements.60 //@elements.78 //@elements.79 //@elements.86 //@elements.89 //@elements.90 //@elements.142 //@elements.159 //@elements.163"
+        day="2"
+        hour="17"
+        minute="30"
+        brand="//@elements.5"/>
+    <singleBrandEvents
+        styles="//@styles.3"
+        name="Runway show"
+        year="2017"
+        month="4"
+        roles="//@elements.129 //@elements.77 //@elements.84 //@elements.88 //@elements.153 //@elements.154 //@elements.160 //@elements.140"
+        day="1"
+        hour="13"
+        brand="//@elements.20"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="London fashion week fall-winter mens"
+      year="2017"
+      month="6"
+      roles="//@elements.129 //@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.93 //@elements.94 //@elements.95 //@elements.96 //@elements.97 //@elements.98 //@elements.99 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.150 //@elements.153 //@elements.154 //@elements.155 //@elements.157 //@elements.161 //@elements.164 //@elements.166"
+      city="London"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Paris fashion week fall-winter woman "
+      year="2017"
+      month="7"
+      roles="//@elements.127 //@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.73 //@elements.74 //@elements.75 //@elements.76 //@elements.77 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87 //@elements.88 //@elements.89 //@elements.90 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167"
+      city="Paris">
+    <singleBrandEvents
+        styles="//@styles.9"
+        name="Cocktail party"
+        year="2017"
+        month="7"
+        roles="//@elements.60 //@elements.83 //@elements.86 //@elements.87 //@elements.88 //@elements.153 //@elements.155 //@elements.164 //@elements.166 //@elements.144"
+        day="1"
+        hour="18"
+        brand="//@elements.5"/>
+    <singleBrandEvents
+        styles="//@styles.10 //@styles.11"
+        name="Runway show"
+        year="2017"
+        month="7"
+        roles="//@elements.127 //@elements.78 //@elements.89 //@elements.90 //@elements.143 //@elements.145 //@elements.148 //@elements.149 //@elements.156 //@elements.157 //@elements.160 //@elements.161 //@elements.162"
+        brand="//@elements.16"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="Paris fashion week fall-winter mens"
+      year="2017"
+      month="8"
+      roles="//@elements.131 //@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.93 //@elements.94 //@elements.95 //@elements.96 //@elements.97 //@elements.98 //@elements.99 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.134 //@elements.135 //@elements.136 //@elements.137 //@elements.138 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.145 //@elements.146 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.161 //@elements.162 //@elements.163 //@elements.164 //@elements.165 //@elements.166 //@elements.167"
+      city="Paris">
+    <singleBrandEvents
+        styles="//@styles.0"
+        name="Cocktail party"
+        year="2017"
+        month="8"
+        roles="//@elements.65 //@elements.93 //@elements.94 //@elements.95 //@elements.146 //@elements.153 //@elements.159 //@elements.163"
+        day="1"
+        hour="19"
+        brand="//@elements.2"/>
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="Runway show"
+        year="2017"
+        month="8"
+        roles="//@elements.131 //@elements.55 //@elements.96 //@elements.97 //@elements.98 //@elements.99 //@elements.144 //@elements.145 //@elements.152 //@elements.158 //@elements.166"
+        day="3"
+        hour="10"
+        brand="//@elements.1"/>
+    <singleBrandEvents
+        styles="//@styles.10"
+        name="Runway show"
+        year="2017"
+        month="8"
+        roles="//@elements.131 //@elements.135 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.154 //@elements.156 //@elements.157 //@elements.160 //@elements.165 //@elements.167"
+        day="1"
+        hour="16"
+        brand="//@elements.16"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Paris fashion week spring-summer woman "
+      year="2017"
+      month="9"
+      roles="//@elements.127 //@elements.54 //@elements.55 //@elements.56 //@elements.57 //@elements.58 //@elements.59 //@elements.60 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.71 //@elements.72 //@elements.73 //@elements.74 //@elements.75 //@elements.76 //@elements.77"
+      city="Paris">
+    <singleBrandEvents
+        styles="//@styles.2 //@styles.3 //@styles.4"
+        name="After party"
+        year="2017"
+        month="9"
+        roles="//@elements.76 //@elements.78 //@elements.79 //@elements.80 //@elements.81 //@elements.82 //@elements.140 //@elements.141 //@elements.142 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.152 //@elements.153 //@elements.156 //@elements.157 //@elements.161 //@elements.162 //@elements.165"
+        day="1"
+        hour="23"
+        brand="//@elements.19"/>
+    <singleBrandEvents
+        styles="//@styles.4 //@styles.5 //@styles.10 //@styles.11"
+        name="Runway show"
+        year="2017"
+        month="9"
+        roles="//@elements.62 //@elements.137 //@elements.140 //@elements.142 //@elements.143 //@elements.144 //@elements.147 //@elements.150 //@elements.151 //@elements.154 //@elements.156 //@elements.157 //@elements.163 //@elements.164 //@elements.83 //@elements.84 //@elements.85 //@elements.86 //@elements.87"
+        day="2"
+        hour="12"
+        brand="//@elements.7"/>
+    <singleBrandEvents
+        styles="//@styles.4 //@styles.6 //@styles.10"
+        name="Runway show"
+        year="2017"
+        month="9"
+        roles="//@elements.58 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.144 //@elements.147 //@elements.148 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.153 //@elements.157 //@elements.158 //@elements.160 //@elements.162 //@elements.165 //@elements.88 //@elements.89 //@elements.90"
+        day="3"
+        hour="14"
+        brand="//@elements.10"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      styles="//@styles.0 //@styles.1 //@styles.6"
+      name="Paris fashion week spring-summer mens "
+      year="2017"
+      month="12"
+      roles="//@elements.131 //@elements.54 //@elements.55 //@elements.56 //@elements.58 //@elements.59 //@elements.60 //@elements.61 //@elements.62 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.70 //@elements.71 //@elements.72 //@elements.74 //@elements.76 //@elements.77 //@elements.134 //@elements.135 //@elements.139 //@elements.140 //@elements.141 //@elements.142 //@elements.143 //@elements.145 //@elements.146 //@elements.154 //@elements.155 //@elements.156 //@elements.157 //@elements.158 //@elements.159 //@elements.160 //@elements.163 //@elements.164 //@elements.165 //@elements.166"
+      city="Paris">
+    <singleBrandEvents
+        styles="//@styles.0 //@styles.1"
+        name="After party"
+        year="2017"
+        month="12"
+        roles="//@elements.66 //@elements.99 //@elements.100 //@elements.101 //@elements.102 //@elements.103 //@elements.141 //@elements.142 //@elements.145 //@elements.154 //@elements.157 //@elements.158 //@elements.160 //@elements.163"
+        day="1"
+        hour="22"
+        minute="30"
+        brand="//@elements.9"/>
+    <singleBrandEvents
+        styles="//@styles.6"
+        name="Runway show"
+        year="2017"
+        month="12"
+        roles="//@elements.131 //@elements.58 //@elements.134 //@elements.91 //@elements.92 //@elements.93 //@elements.94 //@elements.142 //@elements.145 //@elements.146 //@elements.154 //@elements.157 //@elements.160 //@elements.164 //@elements.165"
+        day="1"
+        hour="19"
+        minute="30"
+        brand="//@elements.10"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      name="New York fashion week spring-summer woman "
+      roles="//@elements.54"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      name="New York fashion week spring-summer mens"
+      roles="//@elements.54">
+    <singleBrandEvents
+        name="Runway show"/>
+    <singleBrandEvents
+        name="Cocktail party"/>
+    <singleBrandEvents
+        name="After party"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      name="New York fashion week fall-winter woman "
+      roles="//@elements.54">
+    <singleBrandEvents
+        name="After party"/>
+    <singleBrandEvents
+        name="Runway show"/>
+    <singleBrandEvents
+        name="Runway show"/>
+    <singleBrandEvents
+        name="Cocktail party"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:MacroEvent"
+      name="New York fashion week fall-winter mens"
+      roles="//@elements.54">
+    <singleBrandEvents
+        name="After party"/>
+    <singleBrandEvents
+        name="Runway show"/>
+  </elements>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:SingleBrandEvent"
+      name="Moschino Los Angeles 2017 Woman"
+      month="12"
+      roles="//@elements.130 //@elements.59 //@elements.139 //@elements.84 //@elements.85 //@elements.86 //@elements.144 //@elements.149 //@elements.150 //@elements.151 //@elements.152 //@elements.161 //@elements.162 //@elements.167"
+      day="1"
+      hour="13"
+      brand="//@elements.3"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6"
+      name="Giorgio Armani"
+      brand="//@elements.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.9 //@styles.10"
+      name="Emporio Armani"
+      brand="//@elements.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6"
+      name="Armani Collezioni"
+      brand="//@elements.1"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.9 //@styles.10"
+      name="Moschino"
+      brand="//@elements.3"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.3 //@styles.4"
+      name="Boutique Moschino"
+      brand="//@elements.3"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.0 //@styles.1"
+      name="RRL (Ralph Lauren) "
+      brand="//@elements.4"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6"
+      name="Purple Label (Ralph Lauren)"
+      brand="//@elements.4"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.10 //@styles.11"
+      name="Roberto Cavalli Couture"
+      brand="//@elements.17"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6 //@styles.9"
+      name="Cavalli Class"
+      brand="//@elements.17"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6"
+      name="Versace Collectin"
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.6 //@styles.10"
+      name="Atelier Versace "
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductLine"
+      styles="//@styles.0 //@styles.1 //@styles.9"
+      name="Versace"
+      brand="//@elements.18"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.0"
+      name="Casual"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.1"
+      name="Trendy"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.2"
+      name="Exotic"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.3"
+      name="Artsy"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.4"
+      name="Sexy"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.6"
+      name="Elegant"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.5"
+      name="Punk"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.7"
+      name="Sporty"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.8"
+      name="Vintage"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.9"
+      name="Chic"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.10"
+      name="Sophisticated"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:ProductStyle"
+      styles="//@styles.11"
+      name="Rocker"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Dresses"
+      reviews="//@elements.104"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Jumpers"
+      reviews="//@elements.111"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Cardigans"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Jeans"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="T-shirt"
+      reviews="//@elements.118"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Top"
+      reviews="//@elements.107"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Coat"
+      reviews="//@elements.119"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Jacket"
+      reviews="//@elements.121"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.6"
+      name="Formal Shirt"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.7 //@styles.8 //@styles.10"
+      name="Casual Shirt"
+      reviews="//@elements.120"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.11"
+      name="Blouse"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9"
+      name="Jumpsuit"
+      reviews="//@elements.117"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Trouser"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Skirt"
+      reviews="//@elements.116"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Sweatshirt"
+      reviews="//@elements.122"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Bag"
+      reviews="//@elements.115"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Shoes"
+      reviews="//@elements.124"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.3 //@styles.9 //@styles.6"
+      name="Wallet"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Belt"
+      reviews="//@elements.114"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Foulard"
+      reviews="//@elements.110"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.8 //@styles.9"
+      name="Keyring"
+      reviews="//@elements.125"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Sunglasses"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.9 //@styles.10"
+      name="Watches"
+      reviews="//@elements.112"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Beanies"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Scarves"
+      reviews="//@elements.109"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.8 //@styles.9 //@styles.10"
+      name="Ties"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.9"
+      name="Umbrellas"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="Suitcase"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10"
+      name="Beachwear"
+      reviews="//@elements.106"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.9"
+      name="Perfumes"
+      reviews="//@elements.113"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.10"
+      name="Suits"
+      reviews="//@elements.123"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.6 //@styles.9 //@styles.10"
+      name="Blazers"
+      reviews="//@elements.108"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.6 //@styles.7"
+      name="Polos"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.2 //@styles.3 //@styles.4 //@styles.5 //@styles.6 //@styles.7 //@styles.8 //@styles.9 //@styles.10 //@styles.11"
+      name="Shorts"
+      reviews="//@elements.105"/>
+  <elements
+      xsi:type="ase.projectB.team20.fashion:Product"
+      styles="//@styles.0 //@styles.1 //@styles.4 //@styles.10"
+      name="Underwear"
+      reviews="//@elements.126"/>
+  <styles name="Casual"
+      elements="//@elements.24 //@elements.41 //@elements.1 //@elements.4 //@elements.8 //@elements.11 //@elements.13 //@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.186 //@elements.185/@singleBrandEvents.0 //@elements.185 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.64 //@elements.65 //@elements.67 //@elements.70 //@elements.77 //@elements.78 //@elements.86 //@elements.91 //@elements.98 //@elements.104 //@elements.120 //@elements.128 //@elements.131 //@elements.138 //@elements.139 //@elements.140 //@elements.149 //@elements.153 //@elements.162 //@elements.165 //@elements.198 //@elements.204 //@elements.205 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.226 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.234 //@elements.235 //@elements.236 //@elements.237 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.242 //@elements.243 //@elements.244 //@elements.245 //@elements.246 //@elements.247 //@elements.248 //@elements.250 //@elements.249 //@elements.251"/>
+  <styles name="Trendy"
+      elements="//@elements.25 //@elements.42 //@elements.1 //@elements.4 //@elements.8 //@elements.9 //@elements.11 //@elements.13 //@elements.6 //@elements.176/@singleBrandEvents.3 //@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.1 //@elements.177/@singleBrandEvents.4 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.186 //@elements.185 //@elements.187 //@elements.187/@singleBrandEvents.0 //@elements.64 //@elements.65 //@elements.67 //@elements.70 //@elements.77 //@elements.79 //@elements.85 //@elements.92 //@elements.99 //@elements.105 //@elements.122 //@elements.128 //@elements.131 //@elements.137 //@elements.138 //@elements.139 //@elements.149 //@elements.151 //@elements.153 //@elements.162 //@elements.163 //@elements.198 //@elements.204 //@elements.206 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.226 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.234 //@elements.235 //@elements.236 //@elements.237 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.242 //@elements.243 //@elements.244 //@elements.245 //@elements.247 //@elements.248 //@elements.250 //@elements.249 //@elements.251"/>
+  <styles name="Exotic"
+      elements="//@elements.26 //@elements.43 //@elements.5 //@elements.18 //@elements.14 //@elements.176 //@elements.178 //@elements.180 //@elements.182 //@elements.184 //@elements.186 //@elements.186/@singleBrandEvents.0 //@elements.71 //@elements.72 //@elements.74 //@elements.80 //@elements.106 //@elements.132 //@elements.137 //@elements.142 //@elements.148 //@elements.152 //@elements.165 //@elements.200 //@elements.207 //@elements.217 //@elements.218 //@elements.219 //@elements.221 //@elements.222 //@elements.227 //@elements.229 //@elements.230 //@elements.231 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.240 //@elements.241 //@elements.245 //@elements.250"/>
+  <styles name="Artsy"
+      elements="//@elements.27 //@elements.44 //@elements.0 //@elements.3 //@elements.17 //@elements.18 //@elements.16 //@elements.20 //@elements.54 //@elements.176 //@elements.178 //@elements.180 //@elements.182 //@elements.182/@singleBrandEvents.2 //@elements.184 //@elements.186 //@elements.186/@singleBrandEvents.0 //@elements.71 //@elements.72 //@elements.74 //@elements.88 //@elements.107 //@elements.127 //@elements.133 //@elements.134 //@elements.136 //@elements.141 //@elements.142 //@elements.148 //@elements.152 //@elements.157 //@elements.159 //@elements.160 //@elements.161 //@elements.163 //@elements.197 //@elements.200 //@elements.208 //@elements.217 //@elements.218 //@elements.219 //@elements.221 //@elements.222 //@elements.227 //@elements.229 //@elements.230 //@elements.231 //@elements.233 //@elements.234 //@elements.235 //@elements.236 //@elements.238 //@elements.240 //@elements.241 //@elements.245 //@elements.250"/>
+  <styles name="Sexy"
+      elements="//@elements.28 //@elements.45 //@elements.3 //@elements.16 //@elements.18 //@elements.20 //@elements.176 //@elements.178 //@elements.180 //@elements.182 //@elements.182/@singleBrandEvents.1 //@elements.184 //@elements.186 //@elements.186/@singleBrandEvents.0 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.59 //@elements.60 //@elements.71 //@elements.72 //@elements.81 //@elements.87 //@elements.109 //@elements.121 //@elements.126 //@elements.127 //@elements.134 //@elements.139 //@elements.148 //@elements.149 //@elements.152 //@elements.159 //@elements.160 //@elements.161 //@elements.197 //@elements.200 //@elements.209 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.227 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.240 //@elements.241 //@elements.245 //@elements.250 //@elements.249 //@elements.251"/>
+  <styles name="Punk"
+      elements="//@elements.29 //@elements.46 //@elements.6 //@elements.15 //@elements.2 //@elements.176 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.186 //@elements.186/@singleBrandEvents.1 //@elements.71 //@elements.72 //@elements.110 //@elements.128 //@elements.129 //@elements.137 //@elements.139 //@elements.140 //@elements.150 //@elements.152 //@elements.163 //@elements.165 //@elements.200 //@elements.211 //@elements.217 //@elements.218 //@elements.219 //@elements.221 //@elements.222 //@elements.227 //@elements.229 //@elements.230 //@elements.231 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.240 //@elements.241 //@elements.245 //@elements.250"/>
+  <styles name="Elegant"
+      elements="//@elements.30 //@elements.47 //@elements.48 //@elements.31 //@elements.1 //@elements.2 //@elements.4 //@elements.8 //@elements.9 //@elements.11 //@elements.12 //@elements.13 //@elements.14 //@elements.15 //@elements.19 //@elements.10 //@elements.23 //@elements.55 //@elements.176/@singleBrandEvents.0 //@elements.176/@singleBrandEvents.1 //@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.3 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.179 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.181/@singleBrandEvents.2 //@elements.182 //@elements.183 //@elements.184 //@elements.186 //@elements.185/@singleBrandEvents.1 //@elements.185 //@elements.186/@singleBrandEvents.2 //@elements.187 //@elements.187/@singleBrandEvents.1 //@elements.61 //@elements.63 //@elements.65 //@elements.66 //@elements.67 //@elements.68 //@elements.69 //@elements.70 //@elements.73 //@elements.75 //@elements.76 //@elements.77 //@elements.80 //@elements.81 //@elements.83 //@elements.84 //@elements.93 //@elements.100 //@elements.108 //@elements.123 //@elements.128 //@elements.131 //@elements.145 //@elements.151 //@elements.155 //@elements.156 //@elements.158 //@elements.162 //@elements.163 //@elements.166 //@elements.193 //@elements.195 //@elements.199 //@elements.201 //@elements.202 //@elements.203 //@elements.210 //@elements.217 //@elements.218 //@elements.219 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.225 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.234 //@elements.235 //@elements.236 //@elements.237 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.242 //@elements.243 //@elements.244 //@elements.245 //@elements.247 //@elements.248 //@elements.250 //@elements.249"/>
+  <styles name="Sportly"
+      elements="//@elements.32 //@elements.49 //@elements.4 //@elements.9 //@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.179/@singleBrandEvents.2 //@elements.180 //@elements.181 //@elements.182 //@elements.183 //@elements.184 //@elements.186 //@elements.185 //@elements.70 //@elements.90 //@elements.94 //@elements.101 //@elements.112 //@elements.124 //@elements.136 //@elements.155 //@elements.165 //@elements.167 //@elements.212 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.226 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.243 //@elements.244 //@elements.245 //@elements.250 //@elements.249"/>
+  <styles name="Vintage"
+      elements="//@elements.33 //@elements.50 //@elements.34 //@elements.6 //@elements.7 //@elements.19 //@elements.3 //@elements.20 //@elements.22 //@elements.176 //@elements.177 //@elements.178 //@elements.179 //@elements.180 //@elements.181 //@elements.181/@singleBrandEvents.0 //@elements.182 //@elements.183 //@elements.184 //@elements.186 //@elements.185 //@elements.82 //@elements.95 //@elements.111 //@elements.118 //@elements.128 //@elements.136 //@elements.139 //@elements.154 //@elements.213 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.226 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.235 //@elements.236 //@elements.237 //@elements.238 //@elements.240 //@elements.241 //@elements.242 //@elements.244 //@elements.245 //@elements.250"/>
+  <styles name="Chic"
+      elements="//@elements.35 //@elements.51 //@elements.0 //@elements.2 //@elements.3 //@elements.5 //@elements.7 //@elements.9 //@elements.10 //@elements.12 //@elements.14 //@elements.15 //@elements.16 //@elements.19 //@elements.20 //@elements.21 //@elements.22 //@elements.176/@singleBrandEvents.2 //@elements.176 //@elements.177 //@elements.178/@singleBrandEvents.0 //@elements.178/@singleBrandEvents.1 //@elements.178 //@elements.179 //@elements.179/@singleBrandEvents.3 //@elements.180 //@elements.180/@singleBrandEvents.0 //@elements.181 //@elements.181/@singleBrandEvents.1 //@elements.182 //@elements.182/@singleBrandEvents.0 //@elements.183 //@elements.184 //@elements.186 //@elements.184/@singleBrandEvents.0 //@elements.185 //@elements.56 //@elements.57 //@elements.58 //@elements.60 //@elements.62 //@elements.66 //@elements.68 //@elements.69 //@elements.73 //@elements.76 //@elements.96 //@elements.102 //@elements.114 //@elements.115 //@elements.119 //@elements.125 //@elements.127 //@elements.129 //@elements.135 //@elements.137 //@elements.147 //@elements.155 //@elements.157 //@elements.158 //@elements.161 //@elements.164 //@elements.166 //@elements.194 //@elements.196 //@elements.201 //@elements.204 //@elements.214 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.228 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.234 //@elements.235 //@elements.236 //@elements.237 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.242 //@elements.243 //@elements.244 //@elements.245 //@elements.246 //@elements.248 //@elements.250"/>
+  <styles name="Sophisticated"
+      elements="//@elements.36 //@elements.52 //@elements.37 //@elements.38 //@elements.39 //@elements.0 //@elements.2 //@elements.3 //@elements.5 //@elements.7 //@elements.10 //@elements.17 //@elements.18 //@elements.14 //@elements.16 //@elements.19 //@elements.8 //@elements.21 //@elements.54 //@elements.176/@singleBrandEvents.4 //@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.0 //@elements.178 //@elements.178/@singleBrandEvents.2 //@elements.179/@singleBrandEvents.0 //@elements.179 //@elements.179/@singleBrandEvents.1 //@elements.180 //@elements.181 //@elements.182 //@elements.182/@singleBrandEvents.0 //@elements.183 //@elements.184 //@elements.186 //@elements.184/@singleBrandEvents.1 //@elements.185/@singleBrandEvents.2 //@elements.185 //@elements.186/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.2 //@elements.56 //@elements.57 //@elements.58 //@elements.60 //@elements.63 //@elements.64 //@elements.65 //@elements.66 //@elements.68 //@elements.69 //@elements.74 //@elements.76 //@elements.82 //@elements.89 //@elements.97 //@elements.103 //@elements.113 //@elements.117 //@elements.127 //@elements.129 //@elements.130 //@elements.135 //@elements.139 //@elements.143 //@elements.146 //@elements.147 //@elements.150 //@elements.156 //@elements.158 //@elements.163 //@elements.164 //@elements.166 //@elements.194 //@elements.196 //@elements.200 //@elements.203 //@elements.215 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.226 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.239 //@elements.240 //@elements.241 //@elements.242 //@elements.244 //@elements.245 //@elements.247 //@elements.248 //@elements.250 //@elements.251"/>
+  <styles name="Rocker"
+      elements="//@elements.40 //@elements.53 //@elements.0 //@elements.6 //@elements.10 //@elements.17 //@elements.18 //@elements.11 //@elements.176 //@elements.177 //@elements.177/@singleBrandEvents.2 //@elements.178 //@elements.180 //@elements.180/@singleBrandEvents.1 //@elements.182 //@elements.184 //@elements.186 //@elements.184/@singleBrandEvents.1 //@elements.186/@singleBrandEvents.1 //@elements.59 //@elements.64 //@elements.72 //@elements.74 //@elements.116 //@elements.136 //@elements.144 //@elements.150 //@elements.159 //@elements.164 //@elements.200 //@elements.216 //@elements.217 //@elements.218 //@elements.219 //@elements.220 //@elements.221 //@elements.222 //@elements.223 //@elements.224 //@elements.227 //@elements.229 //@elements.230 //@elements.231 //@elements.232 //@elements.233 //@elements.235 //@elements.236 //@elements.238 //@elements.240 //@elements.241 //@elements.250"/>
+</ase.projectB.team20.fashion:FashionDomain>

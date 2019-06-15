@@ -1,0 +1,327 @@
+grammar it.polimi.ase.projectB2.team20.xtext.FashionDsl with org.eclipse.xtext.common.Terminals
+
+generate fashionDsl "http://www.polimi.it/ase/projectB2/team20/xtext/FashionDsl"
+
+FashionDomain:
+	elements += FashionElement+ 
+	styles += FashionStyle+
+;
+
+
+FashionElement:
+	Brand | AdvertisingCampaign | AdvertisingProduct | ProductLine | ProductStyle | Product | Review | Role | Event
+;
+
+Brand:
+	FamousBrand | EmergingBrand | LocalBrand
+;
+
+NewsReport:
+	Article | TVProgram	
+;
+
+Review:
+	Photo | Description | Comment
+;
+
+Role:
+	Designer | Model | Photographer | Choreographer | Presenter | Reviewer
+;
+
+Reviewer:
+	Blogger | Critic | Influencer
+;
+
+Event:
+	MacroEvent | SingleBrandEvent
+;
+
+
+FashionStyle:
+	'fashionStyle' name = STRING
+	'{'		
+		'descriptors' '{' 
+			descriptors += SpatioTemporalDescriptor+
+		'}'		
+		'elements:'
+			elements += [FashionElement|STRING] (',' elements += [FashionElement|STRING])*		
+	'}'
+;
+
+SpatioTemporalDescriptor:
+	'descriptor' number = INT
+	'{'
+		'period:' period = STRING
+		'location:' location = STRING
+	'}'
+;
+
+Article:
+	'article' title = STRING '{'
+		'magazine:' magazine = STRING
+		'type:' type = MediaType
+		'content:' content = STRING
+		'elements:'
+			elements += [FashionElement|STRING] (',' elements += [FashionElement|STRING])*	
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'	
+;
+
+TVProgram:
+	'tvProgram' name = STRING '{'		
+		'type:' type = MediaType
+		'content:' content = STRING
+		'elements:'
+			elements += [FashionElement|STRING] (',' elements += [FashionElement|STRING])*	
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?	
+	'}'
+;
+
+
+FamousBrand:
+	'famousBrand' name = STRING '{'
+		'countries:' countries = STRING		
+		 (
+		 	'advertisingCampaigns:'
+		 		campaigns += [AdvertisingCampaign|STRING] (',' campaigns += [AdvertisingCampaign|STRING])*		 	
+		 )?
+		 'productLines:'
+	 		productlines += [ProductLine|STRING] (',' productlines += [ProductLine|STRING])*		 
+		 'designers:'
+		 	designers += [Designer|STRING] (',' designers += [Designer|STRING])*
+		 ('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		 ('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+EmergingBrand:
+	'emergingBrand' name = STRING '{'
+		'countries:' countries = STRING		
+		 (
+		 	'advertisingCampaigns:'
+		 		campaigns += [AdvertisingCampaign|STRING] (',' campaigns += [AdvertisingCampaign|STRING])*		 	
+		 )?
+		 'productLines:'
+	 		productlines += [ProductLine|STRING] (',' productlines += [ProductLine|STRING])*		 
+		 'designers:'
+		 	designers += [Designer|STRING] (',' designers += [Designer|STRING])*
+		 ('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		 ('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+LocalBrand:
+	'localBrand' name = STRING '{'
+		'country:' country = STRING		
+		 (
+		 	'advertisingCampaigns:'
+		 		campaigns += [AdvertisingCampaign|STRING] (',' campaigns += [AdvertisingCampaign|STRING])*		 	
+		 )?		 
+	 	'productLines:'
+	 		productlines += [ProductLine|STRING] (',' productlines += [ProductLine|STRING])*		 
+		'designers:'
+			designers += [Designer|STRING] (',' designers += [Designer|STRING])*
+	 	('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+
+AdvertisingCampaign:
+	'advertisingCampaign' name = STRING '{'
+		'brand:' brand = [Brand|STRING]
+		'advertisingProducts' '{'
+			products += AdvertisingProduct+
+		'}'
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+AdvertisingProduct:
+	'advertisingProduct' name = STRING '{'
+		'type:' type = MediaType
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+
+ProductLine:
+	'productLine' name = STRING '{'
+		'brand:' brand = [Brand|STRING]
+		'productStyles' '{'
+			productStyles += ProductStyle+
+		'}'
+		'products' '{'
+			products += Product+
+		'}'
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+ProductStyle:
+	'productStyle:' name = STRING '{'
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Product:
+	'product' name = STRING '{'
+		('reviews:' 
+			reviews += [Review|STRING] (',' reviews += [Review|STRING])*
+		)? 
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+
+Photo:
+	'photo' name = STRING '{'
+		'product:' product = [Product|STRING]
+		'tags:' tags = STRING
+		'reviewer:' reviewer = [Reviewer|STRING]
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Description:
+	'description' name = STRING '{'
+		'product:' product = [Product|STRING]
+		'text:' text = STRING 
+		'reviewer:' reviewer = [Reviewer|STRING]
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Comment:
+	'comment' name = STRING '{'
+		'product:' product = [Product|STRING]
+		'text:' text = STRING
+		'reviewer:' reviewer = [Reviewer|STRING]
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+
+Blogger:
+	'blogger' name = STRING '{'
+		'reviews:'
+			reviews += [Review|STRING] (',' reviews += [Review|STRING])*
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Critic:
+	'critic' name = STRING '{'
+		'reviews:'
+			reviews += [Review|STRING] (',' reviews += [Review|STRING])*
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'	
+;
+
+Influencer:
+	'influencer' name = STRING '{'
+		'reviews:'
+			reviews += [Review|STRING] (',' reviews += [Review|STRING])*
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'	
+;
+
+Designer:
+	'designer' name = STRING '{'
+		'brand:' brand = [Brand|STRING]
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'	
+;
+
+Model:
+	'model' name = STRING '{'
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Photographer:
+	'photographer' name = STRING '{'
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Choreographer:
+	'choreographer' name = STRING '{'
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+Presenter:
+	'presenter' name = STRING '{'
+		'events:'
+			events += [Event|STRING] (',' events += [Event|STRING])*
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+MacroEvent:
+	'macroEvent' name = STRING '{'
+		'year:' year = INT
+		'month:' month = INT
+		'roles:'
+			roles += [Role|STRING] (',' roles += [Role|STRING])*
+		'city:' city = STRING
+		'singleBrandEvents' '{'
+			singleBrandEvents += SingleBrandEvent+
+		'}'
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+SingleBrandEvent:
+	'singleBrandEvent' name = STRING '{'
+		'year:' year = INT
+		'month:' month = INT
+		'roles:'
+			roles += [Role|STRING] (',' roles += [Role|STRING])*
+		'day:' day = INT
+		'hour:' hour = INT
+		'minute:' minute = INT
+		'brand:' brand = [Brand|STRING]
+		('styles:' styles += [FashionStyle|STRING] (',' styles += [FashionStyle|STRING])* )?
+		('reports' '{' reports += NewsReport+ '}')?
+	'}'
+;
+
+
+MediaType:
+	'Online' | 'TV' | 'PhysicalBoard'
+;

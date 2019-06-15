@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated fashion -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fashion.presentation.FashionModelWizardID"
+            name="%_UI_FashionModelWizard_label"
+            class="fashion.presentation.FashionModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FashionModelFile.gif">
+         <description>%_UI_FashionModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated fashion -->
+      <editor
+            id="fashion.presentation.FashionEditorID"
+            name="%_UI_FashionEditor_label"
+            icon="icons/full/obj16/FashionModelFile.gif"
+            extensions="fashion"
+            class="fashion.presentation.FashionEditor"
+            contributorClass="fashion.presentation.FashionActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ase.projectB.team20.agenda="http://agenda.it">
+  <ase.projectB.team20.agenda:Agenda>
+    <events name="Milan fashion week fall-winter woman " month="0" city="Milan">
+      <singleBrandEvents name="Armani cocktail party" month="0" day="0" hour="0" minute="0">
+        <brand name="Armani"/>
+      </singleBrandEvents>
+      <presenter name="Gok Wan"/>
+    </events>
+    <events name="Milan fashion week fall-winter mens" month="0" city="Milan"/>
+    <events name="Milan fashion week spring-summer woman " month="0" city="Milan">
+      <starModel name="Bianca Balti"/>
+    </events>
+    <events name="Milan fashion week spring-summer mens " month="0" city="Milan">
+      <presenter name="Natasha Kaplinsky"/>
+    </events>
+    <events name="London fashion week spring-summer woman " month="0" city="London"/>
+    <events name="London fashion week spring-summer mens" month="0" city="London">
+      <presenter name="Darcey Bussell"/>
+    </events>
+    <events name="London fashion week fall-winter woman " month="0" city="London"/>
+    <events name="London fashion week fall-winter mens" month="0" city="London">
+      <presenter name="Marvin Humes"/>
+    </events>
+    <events name="Paris fashion week fall-winter woman " month="0" city="Paris"/>
+    <events name="Paris fashion week fall-winter mens" month="0" city="Paris"/>
+    <events name="Paris fashion week spring-summer woman " month="0" city="Paris"/>
+    <events name="Paris fashion week spring-summer mens " month="0" city="Paris"/>
+    <events name="New York fashion week spring-summer woman " month="0" city="New York"/>
+    <events name="New York fashion week spring-summer mens" month="0" city="New York"/>
+    <events name="New York fashion week fall-winter woman " month="0" city="New York">
+      <starModel name="Cara Delevigne"/>
+    </events>
+    <events name="New York fashion week fall-winter mens" month="3" city="New York">
+      <starModel name="David Gandy"/>
+    </events>
+  </ase.projectB.team20.agenda:Agenda>
+  <ase.projectB.team20.agenda:Brand name="Tommy Hilfiger"/>
+  <ase.projectB.team20.agenda:Brand name="Hugo Boss"/>
+  <ase.projectB.team20.agenda:Brand name="Hogan"/>
+  <ase.projectB.team20.agenda:Brand name="Iceberg"/>
+  <ase.projectB.team20.agenda:Brand name="Moschino"/>
+  <ase.projectB.team20.agenda:Brand name="Ralph Lauren"/>
+  <ase.projectB.team20.agenda:Brand name="Diesel"/>
+  <ase.projectB.team20.agenda:Brand name="Calvin Klein"/>
+  <ase.projectB.team20.agenda:Brand name="Moncler"/>
+  <ase.projectB.team20.agenda:Brand name="Liu Jo"/>
+  <ase.projectB.team20.agenda:Brand name="Trussardi"/>
+  <ase.projectB.team20.agenda:Brand name="Cavalli"/>
+  <ase.projectB.team20.agenda:Brand name="Versace"/>
+  <ase.projectB.team20.agenda:Brand name="Nike"/>
+  <ase.projectB.team20.agenda:Brand name="Adidas"/>
+  <ase.projectB.team20.agenda:Brand name="Levi's"/>
+  <ase.projectB.team20.agenda:Brand name="Peuterey"/>
+  <ase.projectB.team20.agenda:Brand name="Colmar"/>
+  <ase.projectB.team20.agenda:Brand name="Abercrombie &amp; Fitch "/>
+  <ase.projectB.team20.agenda:Brand name="Guess"/>
+  <ase.projectB.team20.agenda:Brand name="K-Way"/>
+  <ase.projectB.team20.agenda:Brand name="Lacoste"/>
+  <ase.projectB.team20.agenda:Brand name="Pinko"/>
+  <ase.projectB.team20.agenda:Brand name="Furla"/>
+  <ase.projectB.team20.agenda:Brand name="Fay"/>
+  <ase.projectB.team20.agenda:Brand name="Alexandre Birman"/>
+  <ase.projectB.team20.agenda:Brand name="Alyx "/>
+  <ase.projectB.team20.agenda:Brand name="David Carlotta"/>
+  <ase.projectB.team20.agenda:Brand name="Delpozo"/>
+  <ase.projectB.team20.agenda:Brand name="Fausto Puglisi"/>
+  <ase.projectB.team20.agenda:Brand name="Giamba"/>
+  <ase.projectB.team20.agenda:Brand name="Giannico"/>
+  <ase.projectB.team20.agenda:Brand name="Ovs"/>
+  <ase.projectB.team20.agenda:Brand name="Celio"/>
+  <ase.projectB.team20.agenda:Brand name="Terranova"/>
+  <ase.projectB.team20.agenda:Brand name="Nara Camicie"/>
+  <ase.projectB.team20.agenda:Brand name="Mango"/>
+  <ase.projectB.team20.agenda:Brand name="Libero Milano"/>
+  <ase.projectB.team20.agenda:Brand name="Conbipel"/>
+  <ase.projectB.team20.agenda:Brand name="Tosca Blu"/>
+  <ase.projectB.team20.agenda:Brand name="Antony Morato"/>
+  <ase.projectB.team20.agenda:StarModel name="Bella Hadid"/>
+  <ase.projectB.team20.agenda:StarModel name="Alessandra Ambrosio"/>
+  <ase.projectB.team20.agenda:StarModel name="Sara Sampaio"/>
+  <ase.projectB.team20.agenda:StarModel name="Fabio Mancini"/>
+  <ase.projectB.team20.agenda:StarModel name="Alessio Pozzi"/>
+  <ase.projectB.team20.agenda:StarModel name="Simon Nessman"/>
+  <ase.projectB.team20.agenda:StarModel name="Arthur Kulkov"/>
+  <ase.projectB.team20.agenda:StarModel name="Noah Mills"/>
+  <ase.projectB.team20.agenda:StarModel name="Ryan Burns"/>
+  <ase.projectB.team20.agenda:StarModel name="Belen Rodriguez "/>
+</xmi:XMI>

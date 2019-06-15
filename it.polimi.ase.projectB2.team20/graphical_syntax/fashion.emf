@@ -1,0 +1,202 @@
+@"http://www.eclipse.org/OCL/Import"(ecore="http://www.eclipse.org/emf/2002/Ecore")
+@gmf
+@namespace(uri="http://fashion.it", prefix="ase.projectB.team20.fashion")
+package fashion;
+
+@gmf.diagram
+class FashionDomain {
+  val FashionElement[+] elements;
+  val FashionStyle[+] styles;
+}
+
+abstract class FashionElement {
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref FashionStyle[*]#elements styles;
+  @gmf.compartment
+  val NewsReport[*] reports;
+}
+
+@gmf.node(figure="rectangle")
+abstract class NewsReport {
+  attr MediaType[1] type;
+  attr String[1] content;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref FashionElement[+] elements;
+}
+
+@gmf.node(label="title,type", label.pattern="{1}: {0}")
+class Article extends NewsReport {
+  attr String[1] title;
+  attr String[1] magazine;
+}
+
+@gmf.node(label="name,type", label.pattern="{1}: {0}")
+class TVProgram extends NewsReport {
+  attr String[1] name;
+}
+
+@gmf.node(label="name")
+class FashionStyle {
+  attr String[1] name;
+  @gmf.compartment
+  val SpatioTemporalDescriptor[+] descriptors;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref FashionElement[+]#styles elements;
+}
+
+@gmf.node(label="period,location", label.pattern="{0}, {1}")
+class SpatioTemporalDescriptor {
+  attr EDate[1] period;
+  attr String[1] location;
+}
+
+@gmf.node(label="name", figure="rectangle")
+abstract class Brand extends FashionElement {
+  attr String[1] name;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref AdvertisingCampaign[*]#brand campaigns;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref ProductLine[+]#brand productLines;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Designer[+]#brand designers;
+}
+
+class FamousBrand extends Brand {
+  attr String[+] countries;
+}
+
+class EmergingBrand extends Brand {
+  attr String[+] countries;
+}
+
+class LocalBrand extends Brand {
+  attr String[1] country;
+}
+
+@gmf.node(label="name")
+class AdvertisingCampaign extends FashionElement {
+  attr String[1] name;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Brand[1]#campaigns brand;
+  @gmf.compartment
+  val AdvertisingProduct[+] products;
+}
+
+@gmf.node(label="name,type", label.pattern="{0}: {1}")
+class AdvertisingProduct extends FashionElement {
+  attr String[1] name;
+  attr MediaType[1] type;
+}
+
+abstract class Event extends FashionElement {
+  attr String[1] name;
+  attr int[1] year;
+  attr int[1] month;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Role[+]#events roles;
+}
+
+@gmf.node(label="name,year,month,city", label.pattern="{0}, {1}-{2}, {3}")
+class MacroEvent extends Event {
+  attr String[1] city;
+  @gmf.compartment
+  val SingleBrandEvent[+] singleBrandEvents;
+}
+
+@gmf.node(label="name,year,month,day,hour,minute", label.pattern="{0}, {1}-{2}-{3}, {4}:{5}")
+class SingleBrandEvent extends Event {
+  attr int[1] day;
+  attr int[1] hour;
+  attr int[1] minute;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Brand[1] brand;
+}
+
+@gmf.node(label="name")
+class ProductLine extends FashionElement {
+  attr String[1] name;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Brand[1]#productLines brand;
+  @gmf.compartment
+  val ProductStyle[+] productStyles;
+  @gmf.compartment
+  val Product[+] products;
+}
+
+@gmf.node(label="name")
+class ProductStyle extends FashionElement {
+  attr String[1] name;
+}
+
+@gmf.node(label="name")
+class Product extends FashionElement {
+  attr String[1] name;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Review[*]#product reviews;
+}
+
+@gmf.node(label="id")
+abstract class Review extends FashionElement {
+  attr String[1] ~id;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Product[1]#reviews product;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Reviewer[1]#reviews reviewer;
+}
+
+class Photo extends Review {
+  attr String[1] tags;
+}
+
+class Description extends Review {
+  attr String[1] text;
+}
+
+class Comment extends Review {
+  attr String[1] text;
+}
+
+@gmf.node(label="name")
+abstract class Role extends FashionElement {
+  attr String[1] name;
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Event[+]#roles events;
+}
+
+class Designer extends Role {
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Brand[1]#designers brand;
+}
+
+class Model extends Role {
+}
+
+class Presenter extends Role {
+}
+
+class Choreographer extends Role {
+}
+
+class Photographer extends Role {
+}
+
+abstract class Reviewer extends Role {
+  @gmf.link(target.decoration="arrow", style="dash")
+  ref Review[+]#reviewer reviews;
+}
+
+class Blogger extends Reviewer {
+}
+
+class Critic extends Reviewer {
+}
+
+class Influencer extends Reviewer {
+}
+
+enum MediaType {
+  Online = 0;
+  TV = 1;
+  PhysicalBoard = 2;
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package 
+			uri = "http://www.polimi.it/ase/projectB2/team20/xtext/FashionDsl"
+			class = "it.polimi.ase.projectB2.team20.xtext.fashionDsl.FashionDslPackage"
+			genModel = "model/generated/FashionDsl.genmodel" />
+	</extension>
+</plugin>

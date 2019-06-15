@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/it.polimi.ase.projectB2.team20/src"
+    modelPluginID="it.polimi.ase.projectB2.team20" modelName="Fashion" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>fashion.ecore</foreignModel>
+  <genPackages prefix="Fashion" disposableProviderFactory="true" ecorePackage="fashion.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="fashion.ecore#//MediaType">
+      <genEnumLiterals ecoreEnumLiteral="fashion.ecore#//MediaType/Online"/>
+      <genEnumLiterals ecoreEnumLiteral="fashion.ecore#//MediaType/TV"/>
+      <genEnumLiterals ecoreEnumLiteral="fashion.ecore#//MediaType/PhysicalBoard"/>
+    </genEnums>
+    <genClasses ecoreClass="fashion.ecore#//FashionDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionDomain/elements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionDomain/styles"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//FashionElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionElement/styles"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionElement/reports"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//NewsReport">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//NewsReport/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//NewsReport/content"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//NewsReport/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Article">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Article/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Article/magazine"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//TVProgram">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//TVProgram/name"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//FashionStyle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//FashionStyle/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionStyle/descriptors"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//FashionStyle/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//SpatioTemporalDescriptor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//SpatioTemporalDescriptor/period"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//SpatioTemporalDescriptor/location"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//Brand">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Brand/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Brand/campaigns"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Brand/productLines"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Brand/designers"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//FamousBrand">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//FamousBrand/countries"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//EmergingBrand">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//EmergingBrand/countries"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//LocalBrand">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//LocalBrand/country"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//AdvertisingCampaign">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//AdvertisingCampaign/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//AdvertisingCampaign/brand"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//AdvertisingCampaign/products"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//AdvertisingProduct">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//AdvertisingProduct/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//AdvertisingProduct/type"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//Event">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Event/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Event/year"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Event/month"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Event/roles"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//MacroEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//MacroEvent/city"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//MacroEvent/singleBrandEvents"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//SingleBrandEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//SingleBrandEvent/day"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//SingleBrandEvent/hour"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//SingleBrandEvent/minute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//SingleBrandEvent/brand"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//ProductLine">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//ProductLine/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//ProductLine/brand"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//ProductLine/productStyles"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference fashion.ecore#//ProductLine/products"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//ProductStyle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//ProductStyle/name"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Product">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Product/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Product/reviews"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//Review">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Review/id"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Review/product"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Review/reviewer"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Photo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Photo/tags"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Description">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Description/text"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Comment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Comment/text"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="fashion.ecore#//Role">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute fashion.ecore#//Role/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Role/events"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Designer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Designer/brand"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Model"/>
+    <genClasses ecoreClass="fashion.ecore#//Presenter"/>
+    <genClasses ecoreClass="fashion.ecore#//Choreographer"/>
+    <genClasses ecoreClass="fashion.ecore#//Photographer"/>
+    <genClasses image="false" ecoreClass="fashion.ecore#//Reviewer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference fashion.ecore#//Reviewer/reviews"/>
+    </genClasses>
+    <genClasses ecoreClass="fashion.ecore#//Blogger"/>
+    <genClasses ecoreClass="fashion.ecore#//Critic"/>
+    <genClasses ecoreClass="fashion.ecore#//Influencer"/>
+  </genPackages>
+</genmodel:GenModel>
