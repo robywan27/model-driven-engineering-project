@@ -1,5 +1,5 @@
 # model-driven-engineering-project
-University project on the topic of Model-driven Engineering.
+University project on the topic of Model-driven Engineering (April 2017 - June 2017).
 MDE basically consists in the high-level modeling of a given problem, which allow to automatically generate low-level artifacts (e.g. source code, binary code, etc.).
 
 For this project, the following steps were performed:
